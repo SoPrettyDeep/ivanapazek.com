@@ -11,7 +11,7 @@ $body .= "Message: " . $message . "\n";
  
 $mailSMTP = new SendMailSmtpClass('pazekivana@gmail.com', 'pazekivana8824', 'ssl://smtp.gmail.com', 'ivanapazek.com', 465);
   
-// заголовок письма
+
 $headers= "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n"; 	// кодировка письма
 $headers .= "From: ivanapazek.com <pazekivana@gmail.com>\r\n";   			// от кого письмо
