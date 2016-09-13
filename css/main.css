@@ -656,6 +656,8 @@ li {
 }
 .pink{
 	color: rgb(210, 50, 45);
+	text-shadow: 2px 1px 1px #fff;
+    font-size: 31px;
 }
 #contact-form-section {
     padding: 35px;
