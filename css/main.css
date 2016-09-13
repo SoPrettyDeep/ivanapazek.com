@@ -650,12 +650,13 @@ li {
     text-decoration: underline;
     color: #d2322d;
 }
-
 .mail .btn {
     margin: 0 auto;
     margin-bottom: 1%;
 }
-
+.pink{
+	color: rgb(210, 50, 45);
+}
 #contact-form-section {
     padding: 35px;
     background-color: #FFF;
