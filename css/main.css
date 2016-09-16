@@ -563,6 +563,10 @@ li {
     font-size: 16px;
 	padding-top: 5px;
 }
+
+.work__text__hoda {
+    padding-top: 10px;
+}
 .bold{
 	font-weight: bold;
 }
@@ -576,7 +580,7 @@ li {
 
 .contacts {
     text-align: center;
-        padding: 50px 0;
+    padding: 75px 0 25px;
 }
 
 .contacts__link {
@@ -622,17 +626,15 @@ li {
 }
 
 #contact p {
-        font-size: 20px;
+    font-size: 20px;
     letter-spacing: 2px;
-    margin-bottom: 8%;
     font-weight: 100;
     text-transform: initial;
 }
 #contact .contact-right{
 	line-height: 26px;
     text-align: left;
-	    padding-top: 5px;
-	    padding-top: 5px;
+    padding-top: 5px;
 }
 .mail {
     text-align: center;
@@ -653,6 +655,7 @@ li {
 .mail .btn {
     margin: 0 auto;
     margin-bottom: 1%;
+    margin-top: 20%;
 }
 .pink{
 	color: rgb(210, 50, 45);
