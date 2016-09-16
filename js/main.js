@@ -5,8 +5,6 @@ jQuery(function ($) {
     $(window).load(function () {
         'use strict',
 		$("#home").parallax("50%", 0.3);	
-        $("#services").parallax("50%", 0.3);
-        $("#clients").parallax("50%", 0.3);
     });
 
     // Navigation Scroll
@@ -104,10 +102,10 @@ function validateEmail(el) {
 }
 
 // Preloder script
-jQuery(window).load(function () {
-    'use strict';
-    $(".preloader").delay(1600).fadeOut("slow").remove();
-});
+//jQuery(window).load(function () {
+//    'use strict';
+//    $(".preloader").delay(1600).fadeOut("slow").remove();
+//});
 
 //Preloder script
 jQuery(window).load(function () {
