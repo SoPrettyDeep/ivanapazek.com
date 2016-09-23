@@ -362,4 +362,15 @@
     .email__link {
     font-size: 16px;
 }
+	.post {
+    max-width: 85%;
+}
+	.post-title a {
+		font-size: 20px;}
+	.contact_title{
+		text-align: left;
+	}
+	.wrapper_img{
+		text-align: center;
+	}
 }
