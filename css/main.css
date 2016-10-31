@@ -17,7 +17,6 @@ body {
     font-family: 'FuturaPT', sans-serif;
     position: relative;
     font-weight: 400;
-    background-color: #0f0f11;
 }
 
 a:hover {
@@ -55,16 +54,6 @@ li {
     list-style-type: none;
 }
 
-.parallax-section {
-    min-height: 300px;
-    width: 100%;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../images/picture3_bw.png);
-}
-
 .parallax-section1 {
     min-height: 300px;
     width: 100%;
@@ -73,6 +62,16 @@ li {
     background-attachment: fixed;
     background-size: cover;
     background-image: url(../images/picture2_bw.png);
+}
+
+.parallax-section2 {
+    min-height: 300px;
+    width: 100%;
+    background-position: 0 -30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/picture3_bw.png);
 }
 
 .parallax-section-home {
@@ -322,7 +321,7 @@ li {
 }
 
 .carousel-overlay {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
@@ -404,6 +403,32 @@ li {
     text-shadow: 1px 1px 2px #000;
 }
 
+#services {
+    background-color: #fff;
+    font-family: Quicksand, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#services a {
+    color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.service__content {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.service__title {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.red {
+    color: #d2322d;
+}
 
 /*=======================
 ====== About Us CSS =====
@@ -412,7 +437,6 @@ li {
 #bio {
     font-family: 'Quicksand';
     overflow: hidden;
-    padding: 70px 0;
     background-color: #fff;
 }
 
@@ -434,6 +458,10 @@ li {
     display: inline-block;
 }
 
+#bio .row {
+    margin-bottom: 40px;
+}
+
 #bio h4 {
     color: #909090;
     margin-bottom: 50px;
@@ -443,18 +471,12 @@ li {
 
 .bio__content {
     font-weight: 300;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 17px;
     display: inline-block;
-    width: 70%;
-    margin-left: 100px;
     line-height: 30px;
     text-indent: 20px;
-}
-
-#bio span {
-    font-weight: 400;
-    color: #fc7700;
+    width: 70%;
+    margin-left: 10%;
 }
 
 .bio .col-sm-6 {
@@ -494,28 +516,31 @@ li {
     padding: 5px;
 }
 
+.quote {
+    font-size: 40px;
+    font-family: 'Merriweather', sans-serif;
+    display: block;
+}
+
 
 /*====================
 ======Service CSS=====
 ======================*/
+
+.cite {
+    background-color: #fff;
+    width: 100%;
+}
 
 #citation {
     color: #000;
     padding: 30px 17px;
 }
 
-.citation__quote {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 84px;
-    line-height: 1.25em;
-    font-weight: 700;
-}
-
 .citation__text {
-    font-size: 50px;
-    line-height: 1.25em;
-    margin: 1em 0 .5em;
-    padding-bottom: 50px;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
     text-align: left;
 }
 
@@ -528,9 +553,13 @@ li {
 }
 
 .book-box a {
-    color: #d2322d;
+    color: #000;
+	font-weight: bold;
     text-decoration: underline;
     display: inline-block;
+}
+.book-box a:hover, #services a:hover{
+	color: #0645AD;
 }
 
 .btn:focus {
@@ -547,35 +576,49 @@ li {
 }
 
 #work {
-    padding: 65px 0;
     background-color: #fff;
     text-align: left;
     font-size: 20px;
-    letter-spacing: 2px;
     color: #000;
-    text-align: justify;
+    font-family: 'Quicksand';
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#work .row {
+    padding: 5px;
 }
 
 .work__text {
     font-family: 'Quicksand';
-    letter-spacing: 1px;
-    font-size: 16px;
-    padding-top: 5px;
+    font-size: 17px;
+    text-align: left;
+    padding-right: 10%;
 }
 
 .work__text__hoda {
     padding-top: 10px;
 }
 
+.work__text .bold {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.book-title .bold {
+    font-size: 22px;
+}
+
+.book-title {
+    font-size: 17px;
+}
+
 .bold {
     font-weight: bold;
 }
-.book-box .radio_link{
-	font-size: 19px;
-	text-decoration: none;
-}
-.book-box .radio_link:hover{
-	text-decoration: underline;
+.question{
+    font-weight: bold;
+	
 }
 .programs_title {
     margin: 0;
@@ -772,12 +815,12 @@ li {
 ======================*/
 
 #journal {
-    padding: 65px 0;
+    padding-bottom: 65px;
     background-color: #fff;
     text-align: left;
     color: #000;
     font-family: 'Merriweather', serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -794,11 +837,13 @@ li {
 }
 
 .post-content a {
-    color: #d2322d;
+    color: #000;
     text-decoration: underline;
     font-weight: 600;
 }
-
+.post-content a:hover{
+	color:#0645AD;
+}
 .post-content img,
 .post-content p {
     margin-bottom: 6%;
@@ -822,18 +867,18 @@ li {
     color: #000;
 }
 
-
 /*====================
 ======Footer CSS=====
 ======================*/
 
 #footer {
     background-color: #101010;
-    padding: 25px 0;
     color: #fff;
     font-size: 16px;
     position: relative;
     margin-top: 1px;
+    text-shadow: 1px 1px 1px #000;
+    padding-bottom: 25px;
 }
 
 #footer p {
