@@ -54,6 +54,31 @@ li {
     list-style-type: none;
 }
 
+.form_overlay{
+	position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background: #000;
+}
+._form_1 {
+	z-index: 1050;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -250px;
+}
+._form_1 form{
+	position: absolute;
+	top:0;
+	left: 0;
+  overflow: auto;
+  height: 615px;
+}
 .parallax-section1 {
     min-height: 300px;
     width: 100%;
@@ -618,7 +643,7 @@ li {
 }
 .question{
     font-weight: bold;
-	
+
 }
 .programs_title {
     margin: 0;
@@ -782,7 +807,18 @@ li {
 .modal-title {
     font-size: 25px;
 }
-
+.closeModal{
+    position: absolute;
+    top: 38px;
+    right: 15px;
+    display: block;
+    font-size: 30px;
+    width: 30px;
+    z-index: 2000;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+}
 .error_message {
     text-align: center;
     color: #f00;
@@ -876,7 +912,6 @@ li {
     color: #fff;
     font-size: 16px;
     position: relative;
-    margin-top: 1px;
     text-shadow: 1px 1px 1px #000;
     padding-bottom: 25px;
 }
