@@ -40,6 +40,9 @@ jQuery(function ($) {
         }
     };
     var delay = isMobile.any() ? 0 : 30000;
+    setTimeout(function () {
+        $('._form_1, .form_overlay').fadeIn();
+    }, delay);
     $('.form_overlay').on('click', function () {
         $('._form_1, .form_overlay').fadeOut();
     })
