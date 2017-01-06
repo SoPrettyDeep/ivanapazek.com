@@ -204,9 +204,35 @@
     font-weight: 400;
 		padding: 10px 0;
 	}
-
+	._form_1{
+		display: block;
+    width: 100%;
+    margin: 0;
+    top: 9%;
+    left: 0;
+	}
+	._form_1 form{
+		height: auto;
+	}
+	._form-title{
+		font-size: 26px !important;
+	}
+	._submit{
+		    padding: 5px !important;
+	}
 }
 @media (max-width:479px) {
+    .testim_img{
+        display: block;
+    margin: 0 auto;
+
+    }
+    .contacts{
+        padding: 0;
+    }
+    .bio__content{
+        padding: 0 15px;
+    }
 	body section {
 		overflow: hidden
 	}
@@ -246,7 +272,7 @@
 	#sales .btn {
 		width: 320px;
 	}
-    
+
 	.title-one {
 		font-size: 24px
 	}
