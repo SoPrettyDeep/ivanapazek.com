@@ -24,18 +24,6 @@ a:hover {
     text-decoration: none;
 }
 
-.bg {
-    /* The image used */
-    background-image: url(../images/naslov.png);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 a:focus {
     outline: none;
@@ -95,6 +83,20 @@ li {
     background-size: cover;
     background-image: url(../images/picture2_bw.png);
 }
+
+.bg {
+    /* The image used */
+    background-image: url(../images/naslov.png);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .parallax-section2 {
     min-height: 300px;
