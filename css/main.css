@@ -87,7 +87,7 @@ li {
 .bg {
     /* The image used */
     /* background-image: url(../images/naslov.png);*/ 
-background-color: FloralWhite ;
+background-color: Ivory;
     /* Full height */
     max-width:100%;
     height:auto;
@@ -97,11 +97,6 @@ background-color: FloralWhite ;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.naslov_slova {
-    font-style: Open Sans Extra bold;
-}
-
 
 .parallax-section2 {
     min-height: 300px;
