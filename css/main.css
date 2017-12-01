@@ -86,8 +86,8 @@ li {
 
 .bg {
     /* The image used */
-    background-image: url(../images/naslov.png);
-
+    /* background-image: url(../images/naslov.png);*/ 
+background-color: coral;
     /* Full height */
     max-width:100%;
     height:auto;
