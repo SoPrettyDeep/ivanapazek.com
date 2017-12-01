@@ -98,6 +98,10 @@ background-color: Ivory;
     background-size: cover;
 }
 
+.naslov_slova {
+    font-style: Open Sans Extra bold;
+}
+
 
 .parallax-section2 {
     min-height: 300px;
