@@ -420,7 +420,7 @@ background-color: Ivory;
     font-weight: 800;
     margin-bottom: 40px;
     text-shadow: 1px 1px 2px #000;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-top: 275px;
 }
 
