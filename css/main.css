@@ -89,7 +89,8 @@ li {
     background-image: url(../images/naslov.png);
 
     /* Full height */
-    height: 100%; 
+    max-width:100%;
+    height:auto;
 
     /* Center and scale the image nicely */
     background-position: center;
