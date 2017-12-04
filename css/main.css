@@ -356,7 +356,7 @@ li {
 }
 
 .arrow {
-    background-image: url(../images/arrow.png);
+    background-image: url(../images/down-arrow.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
