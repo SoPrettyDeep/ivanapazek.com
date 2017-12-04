@@ -942,6 +942,21 @@ background-color: #FFFFFF;
   height: auto ;
 }
 
+@media (max-width: 480px) {
+  #picblock {
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 481px) {
+  #picblock {
+    background-image: url(desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+
 /*====================
 ======Footer CSS=====
 ======================*/
