@@ -416,9 +416,9 @@ background-color: #FFFFFF;
 .carousel-inner h2 {
     color: black;
     display: inline-block;
-    font-size: 105px; /*pisalo 65px*/
-    font-weight: 900; /*pisalo 800*/
-    margin-bottom: 60px; /*pisalo 40px*/
+    font-size: 65px; /*pisalo 65px*/
+    font-weight: 800; /*pisalo 800*/
+    margin-bottom: 40px; /*pisalo 40px*/
     text-shadow: 1px 1px 2px #000;
     /*text-transform: uppercase;*/
     margin-top: 275px;
