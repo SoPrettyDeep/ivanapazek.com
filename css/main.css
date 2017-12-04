@@ -933,6 +933,16 @@ background-color: #FFFFFF;
 }
 
 /*====================
+======Slike CSS=====
+======================*/
+
+.mojimg {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+/*====================
 ======Footer CSS=====
 ======================*/
 
