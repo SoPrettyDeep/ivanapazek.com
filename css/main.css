@@ -419,7 +419,7 @@ background-color: #FFFFFF;
     font-size: 65px; /*pisalo 65px*/
     font-weight: 800; /*pisalo 800*/
     margin-bottom: 40px; /*pisalo 40px*/
-    text-shadow: 1px 1px 2px #000;
+    /*text-shadow: 1px 1px 2px #000;*/
     /*text-transform: uppercase;*/
     margin-top: 275px;
 }
