@@ -388,7 +388,7 @@ background-color: #FFFFFF;
 
 .down {
     text-align: center;
-    color: #fff;
+    color: #000000; /*pisalo #fff */
     font-family: 'Quicksand';
     width: 109px;
     height: 105px;
