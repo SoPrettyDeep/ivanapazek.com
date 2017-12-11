@@ -86,14 +86,15 @@ li {
 
 .bg {
     /* The image used */
-     background-image: url(../images/Website_BlueDress.jpg);
-/*background-color: #FFFFFF;*/
+     width: auto ;
+  	max-width: 100% ;
+  	height: auto ;
+	background-image: url(../images/Website_BlueDress.jpg);
+background-color: #FFFFFF;
     /* Full height */
     /*max-width:100%;
     height:auto;*/
-	 width: auto ;
-  	max-width: 100% ;
-  	height: auto ;
+	 
 
     /* Center and scale the image nicely */
     background-position: center;
