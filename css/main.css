@@ -87,7 +87,8 @@ li {
 .bg {
     /* The image used */
      background-image: url(../images/Website_BlueDress.jpg);
-  	 background-repeat: no-repeat; 
+  	 
+	background-repeat: no-repeat; 
     	background-position: center;
     	background-attachment: fixed;  
 	-webkit-background-size: cover;
@@ -95,26 +96,9 @@ li {
     	-o-background-size: cover;
    	 background-size: cover;
     	height: 100%;
-    	overflow: hidden;;
+    	overflow: hidden;
 	background-color: #FFFFFF;
-    /* Full height */
-    /*max-width:100%;
-    height:auto;*/
-	
-	
-    /*background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-
-    /* Center and scale the image nicely */
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
+    
 }
 
 .parallax-section2 {
