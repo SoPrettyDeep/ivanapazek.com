@@ -86,11 +86,8 @@ li {
 
 .bg {
     /* The image used */
-     width: auto ;
-  	max-width: 100% ;
-  	height: auto ;
 	background-image: url(../images/Website_BlueDress.jpg);
-background-color: #FFFFFF;
+	background-color: #FFFFFF;
     /* Full height */
     /*max-width:100%;
     height:auto;*/
@@ -100,6 +97,7 @@ background-color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .parallax-section2 {
