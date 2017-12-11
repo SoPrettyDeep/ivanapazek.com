@@ -91,17 +91,15 @@ li {
     /* Full height */
     /*max-width:100%;
     height:auto;*/
-	width: auto ;
-  	max-width: 100% ;
-  	height: auto ;
 	
-	/*background-repeat: no-repeat; 
+	
+    background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover; 
 
     /* Center and scale the image nicely */
     /*background-position: center;
