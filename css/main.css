@@ -88,13 +88,15 @@ li {
     /* The image used */
      background-image: url(../images/Website_BlueDress.jpg), url(../images/quantumlogo_transparent.png);
   	 
+	background-size: cover, 300px 100px;
 	background-repeat: no-repeat; 
     	background-position: center;
     	background-attachment: fixed;  
-	-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-   	 background-size: cover;
+	-webkit-background-size: cover, 300px 100px;
+    	-moz-background-size: cover, 300px 100px;
+    	-o-background-size: cover, 300px 100px;
+   	 
+	
     	
 	background-color: #FFFFFF;
     
