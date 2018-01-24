@@ -113,7 +113,7 @@ li {
 .bg1 {
     /* The image used */
      background-image: url(../images/quantumlogo_transparent.png);
-  	background-size: 400px 400px;
+  	background-size: contain;
 	/* background-repeat: no-repeat; 
     	background-position: center;
     	background-attachment: fixed;  
