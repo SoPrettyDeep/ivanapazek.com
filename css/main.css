@@ -91,7 +91,7 @@ li {
   	 
 	background-size: cover, contain;
 	background-repeat: no-repeat, repeat; 
-    	background-position: center, right;
+    	background-position: center, center;
     	background-attachment: fixed, fixed;  
 	-webkit-background-size: cover, contain;
     	-moz-background-size: cover, contain;
