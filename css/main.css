@@ -77,11 +77,12 @@ li {
 .parallax-section1 {
     min-height: 300px;
     width: 100%;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../images/picture2_bw.png);
+	background-image: url(../images/picture2_bw.png), url(../images/quantumlogo_transparent.png);
+    	background-size: cover, contain; 
+	background-position: 50% 0, right top;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    
 }
 
 .bg {
