@@ -87,8 +87,33 @@ li {
 
 .bg {
     /* The image used */
-     background-image: url(../images/Website_BlueDress.jpg), url(../images/quantumlogo_transparent.png);
-  	background-size: cover, contain;
+     background-image: url(../images/Website_BlueDress.jpg);
+  	background-size: cover;
+	/* background-repeat: no-repeat; 
+    	background-position: center;
+    	background-attachment: fixed;  
+	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;*/
+	
+	/*background: url(../images/quantumlogo_transparent.png);
+  	background-size: 500px 500px;
+	background-repeat: repeat; 
+    	background-position: top right;*/
+	
+/*background-image: 
+	url(../images/Website_BlueDress.jpg) cover no-repeat center fixed,
+	url(../images/quantumlogo_transparent.png) 500px 500px repeat top right;*/
+ 
+    	
+	background-color: #FFFFFF;
+    
+}
+
+.bg1 {
+    /* The image used */
+     background-image: url(../images/quantumlogo_transparent.png);
+  	background-size: 400px 400px;
 	/* background-repeat: no-repeat; 
     	background-position: center;
     	background-attachment: fixed;  
