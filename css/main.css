@@ -86,7 +86,7 @@ li {
 
 .bg {
     /* The image used */
-     background-image: url(../images/Website_BlueDress.jpg);
+     background-image: url(../images/Website_BlueDress.jpg), url(../images/quantumlogo_transparent.png);
   	 
 	background-repeat: no-repeat; 
     	background-position: center;
