@@ -101,7 +101,7 @@ li {
 	background-repeat: repeat; 
     	background-position: top right;*/
 	
-background: 
+background-image: 
 	url(../images/Website_BlueDress.jpg) cover no-repeat center fixed,
 	url(../images/quantumlogo_transparent.png) 500px 500px repeat top right;
  
