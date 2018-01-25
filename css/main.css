@@ -90,7 +90,7 @@ li {
      background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
   		background-size: 450px 450px, cover;
 	 	background-repeat: no-repeat, no-repeat; 
-    		background-position: right 45px bottom 100px, center;
+    		background-position: right 45px bottom 400px, center;
     		background-attachment: fixed;  
 	/*-webkit-background-size: cover;
     	-moz-background-size: cover;
