@@ -88,9 +88,9 @@ li {
 .bg {
     /* The image used */
      background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
-  		background-size: contain, cover;
+  		background-size: 250px 250px, cover;
 	 	background-repeat: repeat, no-repeat; 
-    		background-position: left, center;
+    		background-position: right bottom, center;
     		background-attachment: fixed;  
 	/*-webkit-background-size: cover;
     	-moz-background-size: cover;
