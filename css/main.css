@@ -86,8 +86,8 @@ li {
 }
 
 .bg {
-     background-color: #0d0d0d;
     /* The image used */
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));/*, url('http://placehold.it/350x150');*/
      background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
   		background-size: 250px 250px, cover;
 	 	background-repeat: no-repeat, no-repeat; 
