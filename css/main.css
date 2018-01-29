@@ -87,11 +87,14 @@ li {
 
 .bg {
     /* The image used */
-     		background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Website_BlueDress.jpg);
+     		
+	/*background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
   		background-size: 250px 197px, cover;
 	 	background-repeat: no-repeat, no-repeat; 
     		background-position: right 180px bottom 100px, center;
-    		background-attachment: fixed;  
+    		background-attachment: fixed;  */
+	
 	/*-webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;*/
