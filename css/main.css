@@ -471,6 +471,7 @@ li {
 .service__content {
     font-size: 17px;
     line-height: 30px;
+    width: 320px;/*to stavio novo*/	
 }
 
 .service__title {
