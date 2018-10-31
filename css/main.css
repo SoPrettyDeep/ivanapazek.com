@@ -85,37 +85,6 @@ li {
     
 }
 
-.bg {
-    /* The image used */
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
-     		background-size: cover, 250px 197px;	
-		background-repeat: no-repeat, no-repeat; 
-		background-position: center, right 180px bottom 100px;
-		background-attachment: fixed;
-	/*background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
-  		background-size: 250px 197px, cover;
-	 	background-repeat: no-repeat, no-repeat; 
-    		background-position: right 180px bottom 100px, center;
-    		background-attachment: fixed;  */
-	
-	/*-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;*/
-	
-	/*background: url(../images/quantumlogo_transparent.png);
-  	background-size: 500px 500px;
-	background-repeat: repeat; 
-    	background-position: top right;*/
-	
-	/*background-image: 
-	url(../images/Website_BlueDress.jpg) cover no-repeat center fixed,
-	url(../images/quantumlogo_transparent.png) 500px 500px repeat top right;*/
- 
-    	
-	
-}
-
-
 .parallax-section2 {
     min-height: 300px;
     width: 100%;
@@ -129,11 +98,11 @@ li {
 .parallax-section-home {
     min-height: 300px;
     width: 100%;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../images/picture1_bw.png);
+	background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
+    background-position: bottom right, 50% 0;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: 20%, cover;
 }
 
 .parallax-section p {
