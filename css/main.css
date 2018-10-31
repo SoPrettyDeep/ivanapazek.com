@@ -86,9 +86,8 @@ li {
 }
 
 .parallax-section2 {
-    width: auto ;
-	max-width: 100% ;
-	height: auto ;
+    min-height: 300px;
+    width: 100%;
     background-position: 0 -30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -97,10 +96,11 @@ li {
 }
 
 .parallax-section-home {
-    min-height: 300px;
-    width: 100%;
+    width: auto ;
+	max-width: 100% ;
+	height: auto ;
 	background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
-    background-position: bottom right, 50% 0;
+    background-position: top right, 50% 0;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-size: 20%, cover;
