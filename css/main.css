@@ -100,7 +100,7 @@ li {
 	max-width: 100% ;
 	height: auto ;
 	background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
-    background-position: right, 50% 0;
+    background-position: top right, 50% 0;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-size: 20%, contain;
