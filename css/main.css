@@ -402,14 +402,18 @@ li {
 }
 
 .carousel-inner h2 {
-    color: black;
+    ccolor: black;
     display: inline-block;
-    font-size: 65px; /*pisalo 65px*/
+    font-size: 55px; /*pisalo 65px*/
     font-weight: 800; /*pisalo 800*/
     margin-bottom: 40px; /*pisalo 40px*/
     /*text-shadow: 1px 1px 2px #000;*/
     /*text-transform: uppercase;*/
-    margin-top: 275px;
+    /*margin-top: 275px;*/
+	/*bg-position: center;*/
+	position: -webkit-sticky; /* Safari */
+    	position: sticky;
+    	margin-top: 80px;
 }
 
 .carousel-inner h2 span {
