@@ -5,25 +5,62 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- novo dodano -->
     <meta name="robots" content="index,follow">
     <title>Ivana Pazek</title>
+	<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script>
-	<script src="js/respond.min.js"></script> <![endif]-->
+    <script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script> 
     <link rel="shortcut icon" href="images/fav.ico">
 
 <!--/head-->
+
+<style>
+
+	.naslovna {
+		height: 100px;	
+	}
+	
+	@media only screen and (min-width: 1000px) {
+    .naslovna { 
+		height: 400px;
+    }
+}
+
+	.img2 {
+    width: 100%;
+    height: auto;
+	padding: 20px;
+	background-image: url('img2.jpg'); 
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	font-family: Merienda;
+	text-align: center;
+	font-size: 7px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img2 { 
+		background-image: url('img2.jpg'); 
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center; 
+		font-size: 15px;
+    }
+}
+
+</style>
+
 </head>
 
 <body>
-    <!--<div class="preloader">
+     <!-- <div class="preloader">
         <div class="preloder-wrap">
-            <div class="preloder-inner">
+             <div class="preloder-inner">
                 <div class="ball"></div>
                 <div class="ball"></div>
                 <div class="ball"></div>
@@ -33,10 +70,11 @@
                 <div class="ball"></div>
             </div>
         </div>
-    </div>-->
-    
-    <header id="navigation">
-        <div class="navbar navbar-inverse <!--navbar-fixed-top-->" role="banner">
+    </div> -->
+    <!--/.preloader-->
+	
+	<header id="navigation">
+        <div class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,29 +88,28 @@
                         <li class="scroll"><a href="#bio-link">services</a></li>
                         <li class="scroll"><a href="#journal">journal</a></li>
                         <li class="scroll"><a href="#bio">meet Ivana</a></li>
-			<li><a href="contact" title="ivanapazek.com/contact" >contact</a></li>
+						<li class="scroll"><a href="#contact" title="ivanapazek.com/contact" >contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <!--/navbar-->
-    </header>
-    <!--/#navigation-->
+	</header>	
 	
-
-
-    <section id="home" class="parallax-section-home"> 
-        <!--/.carousel-indicators-->
-        <div class="carousel-inner">
+	
+	 <div class="naslovna">
+			<div class="img2" style="height:400px;">Be True.<br>Follow Your Heart.<br>Manifest Your Ideal Life.</div>
+	 </div>
+	<!-- <section id="home" class="parallax-section-home"> 
+        <!--/.carousel-indicators
+       <div class="carousel-inner">
             <!--<div class="carousel-overlay"></div>-->
-            <div class="carousel-caption" style="text-align:center; font-family: Open Sans; font-style: bold;">
+            <!-- <div class="carousel-caption" style="text-align:center; font-family: Open Sans; font-style: bold;">
                 <h2>Be True.<br/>   
 					Follow Your Heart.<br/>
 					Manifest Your Ideal Life.
 				</h2>
             </div>
-		
-        </div>
+        
         <div class="arrow_wrapper">
             <a href="#services">
                 <div class="immut arrow" title="SCROLL DOWN">
@@ -80,7 +117,15 @@
                 </div>
             </a>
         </div>
-    </section>
+	   </div>
+    </section> --> 
+    
+	
+	
+        <!--/navbar-->
+    
+    <!--/#navigation-->
+	
     <!--/#home-->
     <section id="services">
         <div class="container">
