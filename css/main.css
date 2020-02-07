@@ -74,6 +74,11 @@ li {
     margin-left: -250px;
 }
 
+.responsive {
+	width:100%;
+	height:auto;
+}
+
 .parallax-section1 {
     min-height: 300px;
     width: 100%;
