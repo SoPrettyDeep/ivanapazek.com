@@ -95,6 +95,7 @@ li {
     background-image: url(../images/picture3_bw.png);
 }
 
+/*
 .parallax-section-home {
     width: auto ;
 	max-width: 100% ;
@@ -102,9 +103,9 @@ li {
 	background-image: url(../images/quantumlogo_transparent.png), url(../images/Website_BlueDress.jpg);
     background-position: top right, 50% 0;
     background-repeat: no-repeat, no-repeat;
-    /*background-attachment: fixed, fixed;*/
+    //background-attachment: fixed, fixed;
     background-size: 100%, 100%;
-}
+}*/
 
 .parallax-section p {
     font-size: 36px;
