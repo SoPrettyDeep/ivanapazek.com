@@ -3,9 +3,18 @@
  
 <channel>
  
-<title>Stop with Ivana</title> <link>http://ivanapazek.com/Intro.mp3</link> <description>Stop with Ivana podcast, season 1</description> <language>en-us</language> <copyright>2020</copyright> <lastBuildDate>Wed, 1 Apr 2020 00:56:00 GMT</lastBuildDate> <webMaster>support@ivanapazek.com</webMaster> <ttl>1</ttl> <item>
- 
-<title>Pod #1: Stopping Process</title> <description>Introductory recording to Stop with Ivana podcast, Season 1. In this recording you will learn about the overall process of STOPPING, get clear on its core competencies, as well as what is stopping you from moving forward. </description> <pubDate>Thu, 2 Apr 2020 00:56:00 GMT</pubDate>
+<title>Stop with Ivana</title> <link>http://ivanapazek.com/Intro.mp3</link> <description>Stop with Ivana podcast, season 1</description> <language>en-us</language> <copyright>2020</copyright> <lastBuildDate>Mon, 1 Apr 2020 00:56:00 GMT</lastBuildDate> <webMaster>support@ivanapazek.com</webMaster> <ttl>1</ttl> <item>
+ <itunes:owner>
+    <itunes:name>Ivana Pazek</itunes:name>
+    <itunes:email>support@ivanapazek.com</itunes:email>
+</itunes:owner>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="http://ivanapazek.com/pod_logo.jpg" />
+<itunes:category text="Spirituality"/></itunes:category>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<title>Pod #1: Stopping Process</title> 
+<description>Introductory recording to Stop with Ivana podcast, Season 1. In this recording you will learn about the overall process of STOPPING, get clear on its core competencies, as well as what is stopping you from moving forward. </description> <pubDate>Thu, 2 Apr 2020 00:56:00 GMT</pubDate>
 <enclosure url="http://ivanapazek.com/Intro.mp3" length="15350639" type="audio/mpeg"/> 
 
 </item> 
