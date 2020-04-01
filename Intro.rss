@@ -14,7 +14,7 @@
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="http://ivanapazek.com/pod_logo.jpg" />
-<itunes:category text="Spirituality"/>
+<itunes:categorytext="Spirituality"></itunes:category>
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
