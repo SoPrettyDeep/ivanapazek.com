@@ -2,7 +2,7 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
 <title>Stop with Ivana</title>
-<link>http://ivanapazek.com/Intro.mp3<link>
+<link>http://ivanapazek.com/Intro.mp3</link>
 <language>en-us</language>
 <itunes:subtitle>Learning to Stop to go Further, Faster</itunes:subtitle>
 <itunes:author>Ivana Pazek</itunes:author>
@@ -14,7 +14,7 @@
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="http://ivanapazek.com/pod_logo.jpg" />
-<itunes:category text="Spirituality"/></itunes:category>
+<itunes:category text="Spirituality"/>
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
