@@ -7,7 +7,8 @@
 <itunes:subtitle>Learning to Stop to go Further, Faster</itunes:subtitle>
 <itunes:author>Ivana Pazek</itunes:author>
 <itunes:summary>More studies are being done about the benefits of stopping. Stopping to meditate, exercise, smell the flowers, distrupt our regular patterns in any form. This habit not only increases effectivness in our everyday activities, but also the creativity and satisfaction of what we are doing.</itunes:summary>
-<description>More studies are being done about the benefits of stopping. Stopping to meditate, exercise, smell the flowers, distrupt our regular patterns in any form. This habit not only increases effectivness in our everyday activities, but also the creativity and satisfaction of what we are doing. To get podcast Calendar visit: stopwithivana.com</description>
+<description>More studies are being done about the benefits of stopping. Stopping to meditate, exercise, smell the flowers, distrupt our regular patterns in any form. This habit not only increases effectivness in our everyday activities, but also the creativity and satisfaction of what we are doing. 
+If any questions or comments: support@ivanapazek.com. To get podcast Calendar, as well as other details visit: stopwithivana.com. Music: One Step Closer by Aakash Ghandi </description>
 <itunes:owner>
     <itunes:name>Ivana Pazek</itunes:name>
     <itunes:email>support@ivanapazek.com</itunes:email>
@@ -43,6 +44,25 @@
     <pubDate>Thu, 09 Apr 2020 01:01:07 +0000</pubDate>
     <itunes:author>Ivana Pazek</itunes:author>
     <itunes:duration>00:16:47</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://stopwithivana.com</guid>
+</item> 
+<!--END REPEAT--> 
+   
+   <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Pod #3: Sensations, Part 2</title>
+    <itunes:summary>
+	In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We will make a distinction between light and heavy, as well as comfortable and uncomfortable emotions, to help us become more aware of how we feel in each moment.
+	</itunes:summary>
+    <description>
+    In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We will make a distinction between light and heavy, as well as comfortable and uncomfortable emotions, to help us become more aware of how we feel in each moment.
+	</description>
+    <link>http://stopwithivana.com</link>
+    <enclosure url="http://ivanapazek.com/POD2.mp3" type="audio/mpeg" length="10964975"></enclosure>
+    <pubDate>Thu, 16 Apr 2020 00:01:00 +0000</pubDate>
+    <itunes:author>Ivana Pazek</itunes:author>
+    <itunes:duration>00:12:41</itunes:duration>
     <itunes:explicit>no</itunes:explicit>
     <guid>http://stopwithivana.com</guid>
 </item> 
