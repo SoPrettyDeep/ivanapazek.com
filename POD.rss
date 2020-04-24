@@ -67,6 +67,26 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
     <guid>http://stopwithivana.com/POD3.mp3</guid>
 </item> 
 <!--END REPEAT--> 
+
+   <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Pod #4: Sensations, Part 3</title>
+    <itunes:summary>
+	In the third part for Letter S episode of the STOPPING process, we address pains and connection of emotions and our physical body. 
+	We also explore the meaning of different emotions and its possible messages. 
+	</itunes:summary>
+    <description>
+    In the third part for Letter S episode of the STOPPING process, we address pains and connection of emotions and our physical body. 
+	We also explore the meaning of different emotions and its possible messages. </description>
+    <link>http://stopwithivana.com</link>
+    <enclosure url="http://ivanapazek.com/POD4.mp3" type="audio/mpeg" length="11296768"></enclosure>
+    <pubDate>Thu, 23 Apr 2020 01:01:07 +0000</pubDate>
+    <itunes:author>Ivana Pazek</itunes:author>
+    <itunes:duration>00:14:22</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://stopwithivana.com/POD4.mp3</guid>
+</item> 
+<!--END REPEAT--> 
    
 </channel>
 </rss>
