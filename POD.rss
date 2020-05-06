@@ -72,14 +72,14 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 <item>
     <title>Pod #4: Sensations, Part 3</title>
     <itunes:summary>
-	In the third part for Letter S episode of the STOPPING process, we address pains and connection of emotions and our physical body. 
+	In the third part for Letter S of the STOPPING process, we address pains and connection of emotions and our physical body. 
 	We also explore the meaning of different emotions and its possible messages. 
 	</itunes:summary>
     <description>
-    In the third part for Letter S episode of the STOPPING process, we address pains and connection of emotions and our physical body. 
+    In the third part for Letter S of the STOPPING process, we address pains and connection of emotions and our physical body. 
 	We also explore the meaning of different emotions and its possible messages. </description>
     <link>http://stopwithivana.com</link>
-    <enclosure url="http://ivanapazek.com/POD4.mp3" type="audio/mpeg" length="11296768"></enclosure>
+    <enclosure url="http://ivanapazek.com/POD4.mp3" type="audio/mpeg" length="11295215"></enclosure>
     <pubDate>Thu, 23 Apr 2020 01:01:07 +0000</pubDate>
     <itunes:author>Ivana Pazek</itunes:author>
     <itunes:duration>00:14:22</itunes:duration>
@@ -87,6 +87,27 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
     <guid>http://stopwithivana.com/POD4.mp3</guid>
 </item> 
 <!--END REPEAT--> 
+   
+   <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Pod #5: Thoughts, Part 1</title>
+    <itunes:summary>
+	In the second module of the Stopping process, we address thoughts. We start with the basic definition, what thoughts are and what aren't.
+	We will also talk about the best way to deal with our thoughts. Especially when we cannot control our thoughts.
+	</itunes:summary>
+    <description>
+	In the second module of the Stopping process, we address thoughts. We start with the basic definition, what thoughts are and what aren't.
+	We will also talk about the best way to deal with our thoughts. Especially when we cannot control our thoughts.</description>
+    <link>http://stopwithivana.com</link>
+    <enclosure url="http://ivanapazek.com/POD5_Mod2.mp3" type="audio/mpeg" length="10418943"></enclosure>
+    <pubDate>Thu, 07 May 2020 01:01:07 +0000</pubDate>
+    <itunes:author>Ivana Pazek</itunes:author>
+    <itunes:duration>00:14:00</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://stopwithivana.com/POD5_Mod2.mp3</guid>
+</item> 
+<!--END REPEAT-->    
+   
    
 </channel>
 </rss>
