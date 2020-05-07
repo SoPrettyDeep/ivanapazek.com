@@ -106,7 +106,27 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
     <itunes:explicit>no</itunes:explicit>
     <guid>http://stopwithivana.com/POD5_Mod2.mp3</guid>
 </item> 
-<!--END REPEAT-->    
+<!--END REPEAT-->   
+
+   <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>Pod #6: Thoughts, Part 2</title>
+    <itunes:summary>
+	In the second part of Thoughts module, we address the next steps in dealing with thoughts. We also talk about the relationship between thoughts and beliefs, as well as the power of thoughts. 
+	Lastly, the practical exercise is given to accelerate our learning. If any questions or comments, feel free to contact us at support@ivanapazek.com.
+	</itunes:summary>
+    <description>
+	In the second part of Thoughts module, we address the next steps in dealing with thoughts. We also talk about the relationship between thoughts and beliefs, as well as the power of thoughts. 
+	Lastly, the practical exercise is given to accelerate our learning. If any questions or comments, feel free to contact us at support@ivanapazek.com.</description>
+    <link>http://stopwithivana.com</link>
+    <enclosure url="http://ivanapazek.com/POD6_Mod2.mp3" type="audio/mpeg" length="11979673"></enclosure>
+    <pubDate>Thu, 14 May 2020 01:01:07 +0000</pubDate>
+    <itunes:author>Ivana Pazek</itunes:author>
+    <itunes:duration>00:16:25</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://stopwithivana.com/POD6_Mod2.mp3</guid>
+</item> 
+<!--END REPEAT-->  
    
    
 </channel>
