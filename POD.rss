@@ -108,19 +108,17 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
     <itunes:summary>
 
-	In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We will make a distinction between light and heavy, as well as comfortable and uncomfortable emotions, to help us become more aware of how we feel in each moment.
+	In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We make a distinction between light and heavy, as well as comfortable and uncomfortable emotions.
 
 	</itunes:summary>
 
     <description>
 
-    In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We will make a distinction between light and heavy, as well as comfortable and uncomfortable emotions, to help us become more aware of how we feel in each moment.
-
-	</description>
+    In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We make a distinction between light and heavy, as well as comfortable and uncomfortable emotions.</description>
 
     <link>http://stopwithivana.com</link>
 
-    <enclosure url="http://ivanapazek.com/POD2.mp3" type="audio/mpeg" length="10964975"></enclosure>
+    <enclosure url="http://ivanapazek.com/POD3.mp3" type="audio/mpeg" length="10964975"></enclosure>
 
     <pubDate>Thu, 16 Apr 2020 01:01:07 +0000</pubDate>
 
@@ -286,6 +284,41 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
     <itunes:explicit>no</itunes:explicit>
 
     <guid>http://stopwithivana.com/POD7_Mod2.mp3</guid>
+
+</item> 
+
+<!--END REPEAT-->  
+   
+   
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+<item>
+
+    <title>Pod #8: Oneself, Part 1</title>
+
+    <itunes:summary>
+
+	In the first part of Oneself module, we address the basics of oneself by looking at its definitions and labels. 
+
+	</itunes:summary>
+
+    <description>
+
+	In the first part of Oneself module, we address the basics of oneself by looking at its definitions and labels.  </description>
+
+    <link>http://stopwithivana.com</link>
+
+    <enclosure url="http://ivanapazek.com/POD8_Mod3.mp3" type="audio/mpeg" length="17720015"></enclosure>
+
+    <pubDate>Thu, 4 Jun 2020 01:01:07 +0000</pubDate>
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+    <itunes:duration>00:20:40</itunes:duration>
+
+    <itunes:explicit>no</itunes:explicit>
+
+    <guid>http://stopwithivana.com/POD8_Mod3.mp3</guid>
 
 </item> 
 
