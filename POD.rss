@@ -325,6 +325,41 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 <!--END REPEAT-->  
    
 
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+<item>
+
+    <title>Pod #9: Oneself, Part 2</title>
+
+    <itunes:summary>
+
+	In the second part of the Oneself module, we talk about skills and gifts associated with two main personality types. 
+
+	</itunes:summary>
+
+    <description>
+
+	In the second part of Oneself module, we talk about skills and gifts associated with two main personality types. 
+</description>
+
+    <link>http://stopwithivana.com</link>
+
+    <enclosure url="http://ivanapazek.com/POD9_Mod3.mp3" type="audio/mpeg" length="9930265"></enclosure>
+
+    <pubDate>Thu, 11 Jun 2020 01:01:07 +0000</pubDate>
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+    <itunes:duration>00:18:42</itunes:duration>
+
+    <itunes:explicit>no</itunes:explicit>
+
+    <guid>http://stopwithivana.com/POD9_Mod3.mp3</guid>
+
+</item> 
+
+<!--END REPEAT-->  
+
 </channel>
 
 </rss>
