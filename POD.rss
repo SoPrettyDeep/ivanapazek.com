@@ -1,68 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+
 
 <channel>
 
+
+
 <title>Stop with Ivana</title>
+
+
 
 <link>http://stopwithivana.com</link>
 
+
+
 <language>en-us</language>
+
+
 
 <itunes:subtitle>Learning to Stop to go Further, Faster</itunes:subtitle>
 
+
+
 <itunes:author>Ivana Pazek</itunes:author>
+
+
 
 <itunes:summary>More studies are being done about the benefits of stopping. Stopping to meditate, exercise, smell the flowers, distrupt our regular patterns in any form. This habit not only increases effectivness in our everyday activities, but also the creativity and satisfaction of what we are doing.</itunes:summary>
 
+
+
 <description>More studies are being done about the benefits of stopping. Stopping to meditate, exercise, smell the flowers, distrupt our regular patterns in any form. This habit not only increases effectivness in our everyday activities, but also the creativity and satisfaction of what we are doing. 
+
+
 
 If any questions or comments: support@ivanapazek.com. To get podcast Calendar, as well as other details visit: stopwithivana.com. Music: One Step Closer by Aakash Ghandi </description>
 
+
+
 <itunes:owner>
+
+
 
     <itunes:name>Ivana Pazek</itunes:name>
 
+
+
     <itunes:email>support@ivanapazek.com</itunes:email>
+
+
 
 </itunes:owner>
 
+
+
 <itunes:explicit>no</itunes:explicit>
 
+
+
 <itunes:image href="http://ivanapazek.com/pod_logo.jpg" />
+
+
 
 <itunes:category text="Business"></itunes:category>
 
 
 
+
+
+
+
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #1 Intro: Stopping Process</title>
 
+
+
     <itunes:summary>Introductory recording to Stop with Ivana podcast, Season 1. In this recording you will learn about the overall process of STOPPING and discovering what is stopping you from moving forward.</itunes:summary>
+
+
 
     <description>Introductory recording to Stop with Ivana podcast, Season 1. In this recording you will learn about the overall process of STOPPING and discovering what is stopping you from moving forward.</description>
 
+
+
     <link>http://ivanapazek.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/Intro.mp3" type="audio/mpeg" length="15350639"></enclosure>
 
+
+
     <pubDate>Thu, 02 Apr 2020 01:01:07 +0000</pubDate>
+
+
 
     <itunes:author>Ivana Pazek</itunes:author>
 
+
+
     <itunes:duration>00:19:43</itunes:duration>
+
+
 
     <itunes:explicit>no</itunes:explicit>
 
+
+
     <guid>http://ivanapazek.com/Intro.mp3</guid>
+
+
 
 </item> 
 
+
+
 <!--END REPEAT--> 
+
+
+
+
+
+
+
+
 
 
 
@@ -72,294 +144,652 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #2: Sensations, Part 1</title>
 
+
+
     <itunes:summary>In the first episode we start with letter S of the STOPPING process. Letter S stands for the core competency of dealing with sensations: our emotions, feelings, pains. In this recording you will learn different ways of dealing with sensations and a process to address them.</itunes:summary>
+
+
 
     <description>In the first episode we start with letter S of the STOPPING process. Letter S stands for the core competency of dealing with sensations: our emotions, feelings, pains. In this recording you will learn different ways of dealing with sensations and a process to address them.</description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD2.mp3" type="audio/mpeg" length="14880887"></enclosure>
 
+
+
     <pubDate>Thu, 09 Apr 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:16:47</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://ivanapazek.com/POD2.mp3</guid>
 
+
+
 </item> 
+
+
 
 <!--END REPEAT--> 
 
+
+
    
+
+
 
    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #3: Sensations, Part 2</title>
 
+
+
     <itunes:summary>
+
+
 
 	In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We make a distinction between light and heavy, as well as comfortable and uncomfortable emotions.
 
+
+
 	</itunes:summary>
 
+
+
     <description>
+
+
 
     In the second episode we continue with the letter S of the STOPPING process, the core competency for dealing with sensations: emotions, feelings and pains. We make a distinction between light and heavy, as well as comfortable and uncomfortable emotions.</description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD3.mp3" type="audio/mpeg" length="10964975"></enclosure>
 
+
+
     <pubDate>Thu, 16 Apr 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:12:41</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD3.mp3</guid>
 
+
+
 </item> 
+
+
 
 <!--END REPEAT--> 
 
 
 
+
+
+
+
    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #4: Sensations, Part 3</title>
 
+
+
     <itunes:summary>
+
+
 
 	In the third part for Letter S of the STOPPING process, we address pains and connection of emotions and our physical body. 
 
+
+
 	We also explore the meaning of different emotions and its possible messages. 
+
+
 
 	</itunes:summary>
 
+
+
     <description>
+
+
 
     In the third part for Letter S of the STOPPING process, we address pains and connection of emotions and our physical body. 
 
+
+
 	We also explore the meaning of different emotions and its possible messages. </description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD4.mp3" type="audio/mpeg" length="11295215"></enclosure>
 
+
+
     <pubDate>Thu, 23 Apr 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:14:22</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD4.mp3</guid>
 
+
+
 </item> 
+
+
 
 <!--END REPEAT--> 
 
+
+
    
+
+
 
    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #5: Thoughts, Part 1</title>
 
+
+
     <itunes:summary>
 
+
+
 	In the second module of the Stopping process, we address thoughts. We start with the basic definition, what thoughts are and what aren't.
+
+
 
 	We will also talk about the best way to deal with our thoughts. Especially when we cannot control our thoughts.
 
+
+
 	</itunes:summary>
+
+
 
     <description>
 
+
+
 	In the second module of the Stopping process, we address thoughts. We start with the basic definition, what thoughts are and what aren't.
+
+
 
 	We will also talk about the best way to deal with our thoughts. Especially when we cannot control our thoughts.</description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD5_Mod2.mp3" type="audio/mpeg" length="10418943"></enclosure>
 
+
+
     <pubDate>Thu, 07 May 2020 01:01:07 +0000</pubDate>
+
+
 
     <itunes:author>Ivana Pazek</itunes:author>
 
+
+
     <itunes:duration>00:14:00</itunes:duration>
+
+
 
     <itunes:explicit>no</itunes:explicit>
 
+
+
     <guid>http://stopwithivana.com/POD5_Mod2.mp3</guid>
 
+
+
 </item> 
+
+
 
 <!--END REPEAT-->   
 
 
 
+
+
+
+
    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #6: Thoughts, Part 2</title>
 
+
+
     <itunes:summary>
 
+
+
 	In the second part of Thoughts module, we address the next steps in dealing with thoughts. We also talk about the relationship between thoughts and beliefs, and the power of thoughts. 
+
+
 
 	Lastly, the practical exercise is given to accelerate our learning. If any questions or comments, feel free to contact us at support@ivanapazek.com.
 
+
+
 	</itunes:summary>
 
+
+
     <description>
+
+
 
 	In the second part of Thoughts module, we address the next steps in dealing with thoughts. We also talk about the relationship between thoughts and beliefs, and the power of thoughts. 
 
+
+
 	Lastly, the practical exercise is given to accelerate our learning. If any questions or comments, feel free to contact us at support@ivanapazek.com.</description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD6_Mod2.mp3" type="audio/mpeg" length="11979673"></enclosure>
 
+
+
     <pubDate>Thu, 14 May 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:16:25</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD6_Mod2.mp3</guid>
 
+
+
 </item> 
+
+
 
 <!--END REPEAT-->  
 
+
+
    
+
    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #7: Thoughts, Part 3</title>
 
+
+
     <itunes:summary>
+
+
 
 	In the last part of Thoughts module, we address 3 phases of dealing with thoughts. We also look at dealing with our thoughts as a skill, and discuss thought states.
 
+
+
 	</itunes:summary>
 
+
+
     <description>
+
+
 
 	In the last part of Thoughts module, we address 3 phases of dealing with thoughts. We also look at dealing with our thoughts as a skill, and discuss thought states.</description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD7_Mod2.mp3" type="audio/mpeg" length="15589205"></enclosure>
 
+
+
     <pubDate>Thu, 21 May 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:17:37</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD7_Mod2.mp3</guid>
 
+
+
 </item> 
 
+
+
 <!--END REPEAT-->  
+
    
+
    
+
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #8: Oneself, Part 1</title>
 
+
+
     <itunes:summary>
+
+
 
 	In the first part of Oneself module, we address the basics of oneself by looking at its definitions and labels. 
 
+
+
 	</itunes:summary>
 
+
+
     <description>
+
+
 
 	In the first part of Oneself module, we address the basics of oneself by looking at its definitions and labels.  </description>
 
+
+
     <link>http://stopwithivana.com</link>
+
+
 
     <enclosure url="http://ivanapazek.com/POD8_Mod3.mp3" type="audio/mpeg" length="17720015"></enclosure>
 
+
+
     <pubDate>Thu, 4 Jun 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:20:40</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD8_Mod3.mp3</guid>
 
+
+
 </item> 
 
+
+
 <!--END REPEAT-->  
+
    
+
+
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
+
+
 <item>
+
+
 
     <title>Pod #9: Oneself, Part 2</title>
 
+
+
     <itunes:summary>
+
+
 
 	In the second part of the Oneself module, we talk about skills and gifts associated with two main personality types. 
 
+
+
 	</itunes:summary>
+
+
 
     <description>
 
+
+
 	In the second part of Oneself module, we talk about skills and gifts associated with two main personality types. 
+
 </description>
+
+
 
     <link>http://stopwithivana.com</link>
 
+
+
     <enclosure url="http://ivanapazek.com/POD9_Mod3.mp3" type="audio/mpeg" length="9930265"></enclosure>
+
+
 
     <pubDate>Thu, 11 Jun 2020 01:01:07 +0000</pubDate>
 
+
+
     <itunes:author>Ivana Pazek</itunes:author>
+
+
 
     <itunes:duration>00:18:42</itunes:duration>
 
+
+
     <itunes:explicit>no</itunes:explicit>
+
+
 
     <guid>http://stopwithivana.com/POD9_Mod3.mp3</guid>
 
+
+
 </item> 
+
+
+
+<!--END REPEAT-->  
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #10: Oneself, Part 3</title>
+
+
+
+    <itunes:summary>
+
+
+
+    In the last part of Oneself module, we talk about the importance of feeling deserving, going deeper into our own self esteem and confidence levels. In the end is given the exercise to improve your own sense of value.
+    If any questions or comments email to: support@ivanapazek.com. To get podcast Calendar, as well as other details visit: stopwithivana.com. Music: One Step Closer by Aakash Ghandi.
+
+	</itunes:summary>
+
+
+
+    <description>
+
+
+
+	In the last part of Oneself module, we talk about the importance of feeling deserving, going deeper into our own self esteem and confidence levels. In the end the exercise is given to improve your own sense of value.
+    If any questions or comments email to: support@ivanapazek.com. To get podcast Calendar, as well as other details visit: stopwithivana.com. Music: One Step Closer by Aakash Ghandi.
+
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD10_Mod3.mp3" type="audio/mpeg" length="14056887"></enclosure>
+
+
+
+    <pubDate>Thu, 18 Jun 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:19:42</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD10_Mod3.mp3</guid>
+
+
+
+</item> 
+
+
 
 <!--END REPEAT-->  
 
 </channel>
+
+
 
 </rss>
