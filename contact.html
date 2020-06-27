@@ -1,18 +1,39 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html class="supernova"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F73314018354349" title="oEmbed Form"><link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F73314018354349" title="oEmbed Form">
-<meta property="og:title" content="Contact" >
-<meta property="og:url" content="http://www.jotformeu.com/form/73314018354349" >
-<meta property="og:description" content="Please click the link to complete this form.">
-<link rel="shortcut icon" href="images/fav.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<meta name="HandheldFriendly" content="true" />
-<title>Contact</title>
-<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.2967" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.2967" />
-<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.2967" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.18733" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.setConditions([{"action":[{"id":"action_0_1511879835309","visibility":"Show","isError":false,"field":"17"}],"id":"1511878134909","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1511879835309","field":"26","operator":"equals","value":"Call me please","isError":false},{"id":"term_1_1511879835309","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"},{"action":[{"id":"action_0_1511879849274","visibility":"Show","isError":false,"field":"21"}],"id":"1511877656959","index":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1511879849274","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"}]);
+	JotForm.init(function(){
+      setTimeout(function() {
+          $('input_21').hint('ex: name.surname');
+       }, 20);
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("17", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("17", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+ JotForm.formatDate({date:(new Date()), dateField:$("id_"+17)});
+ JotForm.displayLocalTime("hour_17", "min_17", "ampm_17");
+if (window.JotForm && JotForm.accessible) $('input_8').setAttribute('tabindex',0);
+	JotForm.newDefaultTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+      JotForm.highlightInputs = false;
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","subLabel":"","text":"Skype ID","type":"control_email"},{"description":"","name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like the most help in (Check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"description":"","name":"thereIs","qid":"25","text":"There is a number of additional services that compliment our 'Make agile work for you' program (for organizations) or 'Manifest Your Ideal Life' (individual) program. Please check off all options that interest you!","type":"control_checkbox"},{"description":"","name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"description":"","name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"description":"","name":"name","qid":"28","text":"Name","type":"control_fullname"},{"description":"","name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"description":"","name":"email30","qid":"30","subLabel":"example@example.com","text":"Email","type":"control_email"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","subLabel":"","text":"Skype ID","type":"control_email"},{"description":"","name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like the most help in (Check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"description":"","name":"thereIs","qid":"25","text":"There is a number of additional services that compliment our 'Make agile work for you' program (for organizations) or 'Manifest Your Ideal Life' (individual) program. Please check off all options that interest you!","type":"control_checkbox"},{"description":"","name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"description":"","name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"description":"","name":"name","qid":"28","text":"Name","type":"control_fullname"},{"description":"","name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"description":"","name":"email30","qid":"30","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.18733" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.18733" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.18733" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=59fb4852cf3bfe589c6c6f21"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.18733" />
 <style type="text/css">
     .form-label-left{
         width:101px;
@@ -24,15 +45,7 @@
     .form-label-right{
         width:101px;
     }
-    body, html{
-        margin:0;
-        padding:0;
-        background:#fff;
-    }
-
     .form-all{
-        margin:0px auto;
-        padding-top:0px;
         width:590px;
         color:#555 !important;
         font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
@@ -170,41 +183,14 @@
     /* Injected CSS Code */
 </style>
 
-<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.2967" type="text/javascript"></script>
-<script type="text/javascript">
-   JotForm.setConditions([{"action":[{"id":"action_0_1511879835309","visibility":"Show","isError":false,"field":"17"}],"id":"1511878134909","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1511879835309","field":"26","operator":"equals","value":"Call me please","isError":false},{"id":"term_1_1511879835309","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"},{"action":[{"id":"action_0_1511879849274","visibility":"Show","isError":false,"field":"21"}],"id":"1511877656959","index":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1511879849274","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"}]);
-   JotForm.init(function(){
-      setTimeout(function() {
-          $('input_21').hint('ex: name.surname');
-       }, 20);
-
- JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
- JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
- JotForm.calendarOther = {"today":"Today"};
- var languageOptions = document.querySelectorAll('#langList li'); 
- for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
-   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("17", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
- } 
- JotForm.setCalendar("17", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
- JotForm.formatDate({date:(new Date()), dateField:$("id_"+17)});
- JotForm.displayLocalTime("hour_17", "min_17", "ampm_17");
-      JotForm.highlightInputs = false;
-    /*INIT-END*/
-});
-
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","text":"Skype ID","type":"control_email"},{"name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like the most help in (Check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"name":"thereIs25","qid":"25","text":"There is a number of additional services that compliment our &#039;Manifest Your Ideal Life&#039; program. Please check off all options that interest you!","type":"control_checkbox"},{"name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"name":"name","qid":"28","text":"Name","type":"control_fullname"},{"name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"name":"email30","qid":"30","text":"Email","type":"control_email"}]);
-   setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","text":"Skype ID","type":"control_email"},{"name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like the most help in (Check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"name":"thereIs25","qid":"25","text":"There is a number of additional services that compliment our &#039;Manifest Your Ideal Life&#039; program. Please check off all options that interest you!","type":"control_checkbox"},{"name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"name":"name","qid":"28","text":"Name","type":"control_fullname"},{"name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"name":"email30","qid":"30","text":"Email","type":"control_email"}]);}, 20); 
-</script>
-</head>
-<body>
-<form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8">
+<form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="73314018354349" />
-  <div class="form-all">
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
     <ul class="form-section page-section">
       <li id="cid_18" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group ">
+        <div class="form-header-group  header-large">
           <div class="header-text httal htvam">
             <h1 id="header_18" class="form-header" data-component="header">
               Contact Form
@@ -216,13 +202,13 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <label class="form-label form-label-top form-label-auto" id="label_28" for="first_28"> Name </label>
         <div id="cid_28" class="form-input-wide">
           <div data-wrapper-react="true">
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input type="text" id="first_28" name="q28_name[first]" class="form-textbox" size="10" value="" data-component="first" />
-              <label class="form-sub-label" for="first_28" id="sublabel_first" style="min-height:13px;"> First Name </label>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_28" name="q28_name[first]" class="form-textbox" size="10" value="" data-component="first" aria-labelledby="label_28 sublabel_28_first" />
+              <label class="form-sub-label" for="first_28" id="sublabel_28_first" style="min-height:13px" aria-hidden="false"> First Name </label>
             </span>
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input type="text" id="last_28" name="q28_name[last]" class="form-textbox" size="15" value="" data-component="last" />
-              <label class="form-sub-label" for="last_28" id="sublabel_last" style="min-height:13px;"> Last Name </label>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_28" name="q28_name[last]" class="form-textbox" size="15" value="" data-component="last" aria-labelledby="label_28 sublabel_28_last" />
+              <label class="form-sub-label" for="last_28" id="sublabel_28_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
             </span>
           </div>
         </div>
@@ -231,16 +217,16 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <label class="form-label form-label-top form-label-auto" id="label_29" for="input_29_area"> Phone Number </label>
         <div id="cid_29" class="form-input-wide">
           <div data-wrapper-react="true">
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input type="tel" id="input_29_area" name="q29_phoneNumber[area]" class="form-textbox" size="3" value="" data-component="areaCode" />
-              <span class="phone-separate">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="areaCode">
+              <input type="tel" id="input_29_area" name="q29_phoneNumber[area]" class="form-textbox" size="6" value="" data-component="areaCode" aria-labelledby="label_29 sublabel_29_area" />
+              <span class="phone-separate" aria-hidden="true">
                  -
               </span>
-              <label class="form-sub-label" for="input_29_area" id="sublabel_area" style="min-height:13px;"> Area Code </label>
+              <label class="form-sub-label" for="input_29_area" id="sublabel_29_area" style="min-height:13px" aria-hidden="false"> Area Code </label>
             </span>
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input type="tel" id="input_29_phone" name="q29_phoneNumber[phone]" class="form-textbox" size="8" value="" data-component="phone" />
-              <label class="form-sub-label" for="input_29_phone" id="sublabel_phone" style="min-height:13px;"> Phone Number </label>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_29_phone" name="q29_phoneNumber[phone]" class="form-textbox" size="12" value="" data-component="phone" aria-labelledby="label_29 sublabel_29_phone" />
+              <label class="form-sub-label" for="input_29_phone" id="sublabel_29_phone" style="min-height:13px" aria-hidden="false"> Phone Number </label>
             </span>
           </div>
         </div>
@@ -248,100 +234,94 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       <li class="form-line" data-type="control_email" id="id_30">
         <label class="form-label form-label-top form-label-auto" id="label_30" for="input_30"> Email </label>
         <div id="cid_30" class="form-input-wide">
-          <span class="form-sub-label-container" style="vertical-align:top;">
-            <input type="email" id="input_30" name="q30_email30" class="form-textbox validate[Email]" size="30" value="" data-component="email" />
-            <label class="form-sub-label" for="input_30" style="min-height:13px;"> example@example.com </label>
+          <span class="form-sub-label-container " style="vertical-align:top">
+            <input type="email" id="input_30" name="q30_email30" class="form-textbox validate[Email]" size="30" value="" data-component="email" aria-labelledby="label_30 sublabel_input_30" />
+            <label class="form-sub-label" for="input_30" id="sublabel_input_30" style="min-height:13px" aria-hidden="false"> example@example.com </label>
           </span>
         </div>
       </li>
       <li class="form-line" data-type="control_checkbox" id="id_22">
-        <label class="form-label form-label-top form-label-auto" id="label_22" for="input_22_0"> Areas in which I'd like the most help in (Check as many as you'd like!): </label>
+        <label class="form-label form-label-top form-label-auto" id="label_22" for="input_22"> Areas in which I'd like the most help in (Check as many as you'd like!): </label>
         <div id="cid_22" class="form-input-wide">
-          <div class="form-single-column" data-component="checkbox">
-            <span class="form-checkbox-item" style="clear:left;">
+          <div class="form-single-column" role="group" aria-labelledby="label_22" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_0" name="q22_areasIn22[]" value="social" />
-              <label id="label_input_22_0" for="input_22_0"> social </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_0" name="q22_areasIn22[]" value="Agile, organizational coaching" />
+              <label id="label_input_22_0" for="input_22_0"> Agile, organizational coaching </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_1" name="q22_areasIn22[]" value="career" />
-              <label id="label_input_22_1" for="input_22_1"> career </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_1" name="q22_areasIn22[]" value="team productivity and efficiency" />
+              <label id="label_input_22_1" for="input_22_1"> team productivity and efficiency </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_2" name="q22_areasIn22[]" value="health" />
-              <label id="label_input_22_2" for="input_22_2"> health </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_2" name="q22_areasIn22[]" value="team motivation" />
+              <label id="label_input_22_2" for="input_22_2"> team motivation </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_3" name="q22_areasIn22[]" value="emotional area" />
-              <label id="label_input_22_3" for="input_22_3"> emotional area </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_3" name="q22_areasIn22[]" value="conflict management" />
+              <label id="label_input_22_3" for="input_22_3"> conflict management </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_4" name="q22_areasIn22[]" value="spiritual area" />
-              <label id="label_input_22_4" for="input_22_4"> spiritual area </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_4" name="q22_areasIn22[]" value="management" />
+              <label id="label_input_22_4" for="input_22_4"> management </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_5" name="q22_areasIn22[]" value="finances" />
-              <label id="label_input_22_5" for="input_22_5"> finances </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_5" name="q22_areasIn22[]" value="leadership" />
+              <label id="label_input_22_5" for="input_22_5"> leadership </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_6" name="q22_areasIn22[]" value="Mental area" />
-              <label id="label_input_22_6" for="input_22_6"> Mental area </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_6" name="q22_areasIn22[]" value="career direction, purpose" />
+              <label id="label_input_22_6" for="input_22_6"> career direction, purpose </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_22_7" name="q22_areasIn22[]" value="love relationships" />
-              <label id="label_input_22_7" for="input_22_7"> love relationships </label>
+              <input type="checkbox" class="form-checkbox" id="input_22_7" name="q22_areasIn22[]" value="social, emotional, relationships" />
+              <label id="label_input_22_7" for="input_22_7"> social, emotional, relationships </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
-              <label style="display:none;" for="other_22"> Other option </label>
-              <input type="checkbox" class="form-checkbox-other form-checkbox" name="q22_areasIn22[other]" id="other_22" value="other" />
-              <input type="text" class="form-checkbox-other-input form-textbox" name="q22_areasIn22[other]" data-otherhint="Other" placeholder="Other" size="15" id="input_22" />
+            <span class="form-checkbox-item" style="clear:left">
+              <input type="checkbox" class="form-checkbox-other form-checkbox" name="q22_areasIn22[other]" id="other_22" value="other" aria-label="Other" />
+              <label id="label_other_22" style="text-indent:0" for="other_22">  </label>
+              <input type="text" class="form-checkbox-other-input form-textbox" name="q22_areasIn22[other]" data-otherhint="Other" size="15" id="input_22" placeholder="Other" />
               <br/>
             </span>
           </div>
         </div>
       </li>
       <li class="form-line" data-type="control_checkbox" id="id_25">
-        <label class="form-label form-label-top form-label-auto" id="label_25" for="input_25_0"> There is a number of additional services that compliment our 'Manifest Your Ideal Life' program. Please check off all options that interest you! </label>
+        <label class="form-label form-label-top form-label-auto" id="label_25" for="input_25"> There is a number of additional services that compliment our 'Make agile work for you' program (for organizations) or 'Manifest Your Ideal Life' (individual) program. Please check off all options that interest you! </label>
         <div id="cid_25" class="form-input-wide">
-          <div class="form-single-column" data-component="checkbox">
-            <span class="form-checkbox-item" style="clear:left;">
+          <div class="form-single-column" role="group" aria-labelledby="label_25" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_25_0" name="q25_thereIs25[]" value="&#x27;Discover Your Joy Factor&#x27; - program designed to find your life’s purpose" />
-              <label id="label_input_25_0" for="input_25_0"> 'Discover Your Joy Factor' - program designed to find your life’s purpose </label>
+              <input type="checkbox" class="form-checkbox" id="input_25_0" name="q25_thereIs[]" value="&#x27;Discover Your Joy Factor&#x27; - program designed to get career personality profile and/or understand individual life&#x27;s purpose" />
+              <label id="label_input_25_0" for="input_25_0"> 'Discover Your Joy Factor' - program designed to get career personality profile and/or understand individual life's purpose </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_25_1" name="q25_thereIs25[]" value="&#x27;Emotional Freedom&#x27; - program designed to let go of emotional traumas and making peace with past events" />
-              <label id="label_input_25_1" for="input_25_1"> 'Emotional Freedom' - program designed to let go of emotional traumas and making peace with past events </label>
+              <input type="checkbox" class="form-checkbox" id="input_25_1" name="q25_thereIs[]" value="&#x27;Emotional Freedom&#x27; - program designed to teach how to deal with stress and every day emotions the best way" />
+              <label id="label_input_25_1" for="input_25_1"> 'Emotional Freedom' - program designed to teach how to deal with stress and every day emotions the best way </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left;">
+            <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_25_2" name="q25_thereIs25[]" value="&#x27;Revitalise Your Life&#x27; - program for chakra balance, as well as balance of different polarities like female and male energies" />
-              <label id="label_input_25_2" for="input_25_2"> 'Revitalise Your Life' - program for chakra balance, as well as balance of different polarities like female and male energies </label>
-            </span>
-            <span class="form-checkbox-item" style="clear:left;">
-              <span class="dragger-item">
-              </span>
-              <input type="checkbox" class="form-checkbox" id="input_25_3" name="q25_thereIs25[]" value="&#x27;Make Your Ambitions Real&#x27; - oriented towards business success" />
-              <label id="label_input_25_3" for="input_25_3"> 'Make Your Ambitions Real' - oriented towards business success </label>
+              <input type="checkbox" class="form-checkbox" id="input_25_2" name="q25_thereIs[]" value="&#x27;Toxic culture management&#x27; - oriented towards those in more toxic environments and cultures" />
+              <label id="label_input_25_2" for="input_25_2"> 'Toxic culture management' - oriented towards those in more toxic environments and cultures </label>
             </span>
           </div>
         </div>
@@ -349,26 +329,26 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       <li class="form-line" data-type="control_radio" id="id_26">
         <label class="form-label form-label-top form-label-auto" id="label_26" for="input_26"> How should we get in touch? </label>
         <div id="cid_26" class="form-input-wide">
-          <div class="form-single-column" data-component="radio">
-            <span class="form-radio-item" style="clear:left;">
+          <div class="form-single-column" role="group" aria-labelledby="label_26" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_26_0" name="q26_howShould" value="Email is best" />
               <label id="label_input_26_0" for="input_26_0"> Email is best </label>
             </span>
-            <span class="form-radio-item" style="clear:left;">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_26_1" name="q26_howShould" value="Call me please" />
               <label id="label_input_26_1" for="input_26_1"> Call me please </label>
             </span>
-            <span class="form-radio-item" style="clear:left;">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_26_2" name="q26_howShould" value="Call me through Skype" />
               <label id="label_input_26_2" for="input_26_2"> Call me through Skype </label>
             </span>
-            <span class="form-radio-item" style="clear:left;">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_26_3" name="q26_howShould" value="I&#x27;ll send you an email to ivana.pazek@gmail.com shortly!" />
@@ -385,40 +365,38 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
           </span>
         </label>
         <div id="cid_21" class="form-input-wide always-hidden jf-required">
-          <input type="email" id="input_21" name="q21_skypeId" class="form-textbox validate[required, Email]" size="32" value="" placeholder="ex: name.surname" data-component="email" required="" />
+          <input type="email" id="input_21" name="q21_skypeId" class="form-textbox validate[required, Email]" size="32" value="" placeholder="ex: name.surname" data-component="email" aria-labelledby="label_21" required="" />
         </div>
       </li>
       <li class="form-line form-line-column form-col-1 always-hidden allowTime form-field-hidden" style="display:none;" data-type="control_datetime" id="id_17">
         <label class="form-label form-label-top" id="label_17" for="month_17"> Best date and time to call </label>
         <div id="cid_17" class="form-input-wide always-hidden">
-          <div data-wrapper-react="true">
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input class="form-textbox validate[limitDate]" id="month_17" name="q17_bestDate[month]" type="tel" size="2" data-maxlength="2" value="11" />
-              <span class="date-separate">
+          <div data-wrapper-react="true" class="extended">
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[limitDate]" id="month_17" name="q17_bestDate[month]" size="2" data-maxlength="2" maxLength="2" value="06" autoComplete="off" aria-labelledby="label_17 sublabel_17_month" />
+              <span class="date-separate" aria-hidden="true">
                  -
               </span>
-              <label class="form-sub-label" for="month_17" id="sublabel_month" style="min-height:13px;"> Month </label>
+              <label class="form-sub-label" for="month_17" id="sublabel_17_month" style="min-height:13px" aria-hidden="false"> Month </label>
             </span>
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input class="currentDate form-textbox validate[limitDate]" id="day_17" name="q17_bestDate[day]" type="tel" size="2" data-maxlength="2" value="29" />
-              <span class="date-separate">
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="tel" class="currentDate form-textbox validate[limitDate]" id="day_17" name="q17_bestDate[day]" size="2" data-maxlength="2" maxLength="2" value="27" autoComplete="off" aria-labelledby="label_17 sublabel_17_day" />
+              <span class="date-separate" aria-hidden="true">
                  -
               </span>
-              <label class="form-sub-label" for="day_17" id="sublabel_day" style="min-height:13px;"> Day </label>
+              <label class="form-sub-label" for="day_17" id="sublabel_17_day" style="min-height:13px" aria-hidden="false"> Day </label>
             </span>
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <input class="form-textbox validate[limitDate]" id="year_17" name="q17_bestDate[year]" type="tel" size="4" data-maxlength="4" value="2017" />
-              <label class="form-sub-label" for="year_17" id="sublabel_year" style="min-height:13px;"> Year </label>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[limitDate]" id="year_17" name="q17_bestDate[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="2020" autoComplete="off" aria-labelledby="label_17 sublabel_17_year" />
+              <label class="form-sub-label" for="year_17" id="sublabel_17_year" style="min-height:13px" aria-hidden="false"> Year </label>
             </span>
-            <span style="white-space:nowrap;display:inline-block;" class="allowTime-container">
-              <span class="form-sub-label-container" style="vertical-align:top;">
-                <div id="at_17">
-                  at
-                </div>
-                <label class="form-sub-label" for="at_17" style="min-height:13px;">  </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top;">
-                <select class="currentTime time-dropdown form-dropdown validate[limitDate]" id="hour_17" name="q17_bestDate[hour]">
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_17_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="Yes" data-version="v1" />
+              <label class="form-sub-label" for="input_17_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+            </span>
+            <span class="allowTime-container">
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <select class="currentTime time-dropdown form-dropdown validate[limitDate]" id="hour_17" name="q17_bestDate[hour]" aria-labelledby="label_17 sublabel_17_hour">
                   <option>  </option>
                   <option value="1"> 1 </option>
                   <option value="2"> 2 </option>
@@ -433,34 +411,30 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
                   <option value="11"> 11 </option>
                   <option value="12"> 12 </option>
                 </select>
-                <span class="date-separate">
+                <span class="date-separate" aria-hidden="true">
                    :
                 </span>
-                <label class="form-sub-label" for="hour_17" id="sublabel_hour" style="min-height:13px;"> Sat </label>
+                <label class="form-sub-label" for="hour_17" id="sublabel_17_hour" style="min-height:13px" aria-hidden="false"> Sat </label>
               </span>
-              <span class="form-sub-label-container" style="vertical-align:top;">
-                <select class="time-dropdown form-dropdown validate[limitDate]" id="min_17" name="q17_bestDate[min]">
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <select class="time-dropdown form-dropdown validate[limitDate]" id="min_17" name="q17_bestDate[min]" aria-labelledby="label_17 sublabel_17_minutes">
                   <option>  </option>
                   <option value="00"> 00 </option>
-                  <option value="10"> 10 </option>
-                  <option selected="" value="20"> 20 </option>
+                  <option selected="" value="10"> 10 </option>
+                  <option value="20"> 20 </option>
                   <option value="30"> 30 </option>
                   <option value="40"> 40 </option>
                   <option value="50"> 50 </option>
                 </select>
-                <label class="form-sub-label" for="min_17" id="sublabel_minutes" style="min-height:13px;"> Minute </label>
+                <label class="form-sub-label" for="min_17" id="sublabel_17_minutes" style="min-height:13px" aria-hidden="false"> Minute </label>
               </span>
-              <span class="form-sub-label-container" style="vertical-align:top;">
-                <select class="time-dropdown form-dropdown validate[limitDate]" id="ampm_17" name="q17_bestDate[ampm]">
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <select class="time-dropdown form-dropdown validate[limitDate]" id="ampm_17" name="q17_bestDate[ampm]" aria-labelledby="label_17 sublabel_17_ampm">
                   <option selected="" value="AM"> AM </option>
                   <option value="PM"> PM </option>
                 </select>
-                <label class="form-sub-label" for="ampm_17" style="min-height:13px;">  </label>
+                <label class="form-sub-label" for="ampm_17" id="sublabel_17_ampm" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="false"> AM/PM Option </label>
               </span>
-            </span>
-            <span class="form-sub-label-container" style="vertical-align:top;">
-              <img class="showAutoCalendar" alt="Pick a Date" id="input_17_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;" data-component="datetime" />
-              <label class="form-sub-label" for="input_17_pick" style="min-height:13px;">  </label>
             </span>
           </div>
         </div>
@@ -468,20 +442,20 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       <li class="form-line" data-type="control_textarea" id="id_8">
         <label class="form-label form-label-top" id="label_8" for="input_8"> Additional Comments </label>
         <div id="cid_8" class="form-input-wide">
-          <textarea id="input_8" class="form-textarea" name="q8_additionalComments" cols="60" rows="10" data-component="textarea"></textarea>
+          <textarea id="input_8" class="form-textarea" name="q8_additionalComments" cols="60" rows="10" data-component="textarea" aria-labelledby="label_8"></textarea>
         </div>
       </li>
       <li class="form-line" data-type="control_radio" id="id_27">
         <label class="form-label form-label-top form-label-auto" id="label_27" for="input_27"> Are you interested in immediate help from Ivana? </label>
         <div id="cid_27" class="form-input-wide">
-          <div class="form-single-column" data-component="radio">
-            <span class="form-radio-item" style="clear:left;">
+          <div class="form-single-column" role="group" aria-labelledby="label_27" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_27_0" name="q27_areYou" value="Yes, let&#x27;s get it going!" />
               <label id="label_input_27_0" for="input_27_0"> Yes, let's get it going! </label>
             </span>
-            <span class="form-radio-item" style="clear:left;">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_27_1" name="q27_areYou" value="How about a phone call first?" />
@@ -492,8 +466,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
-          <div style="text-align:center;" class="form-buttons-wrapper">
-            <button id="input_2" type="submit" class="form-submit-button" data-component="button">
+          <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
               CONTACT US
             </button>
           </div>
@@ -507,9 +481,11 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       </li>
     </ul>
   </div>
-    </html>
-  <!--<script>
+  <script>
   JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
   </script>
   <input type="hidden" id="simple_spc" name="simple_spc" value="73314018354349" />
   <script type="text/javascript">
@@ -517,16 +493,14 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
   </script>
   <div class="formFooter-heightMask">
   </div>
-  <div class="formFooter">
-    <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73314018354349&utm_content=jotform_logo&utm_campaign=powered_by_jotform_signup_cf_old" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="" style="height: 44px;"></a>
+  <div class="formFooter f6">
+    <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73314018354349&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="Jotform Logo" style="height: 44px;"></a>
     <div class="formFooter-rightSide">
       <span class="formFooter-text">
         Now create your own JotForm - It's free!
       </span>
-      <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73314018354349&utm_content=jotform_button&utm_campaign=powered_by_jotform_signup_cf_old" target="_blank">Create your own JotForm</a>
+      <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73314018354349&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank">Create your own JotForm</a>
     </div>
   </div>
-</form></body>
-</html>
+</form>
 <script type="text/javascript">JotForm.forwardToEu=true;</script>
--->
