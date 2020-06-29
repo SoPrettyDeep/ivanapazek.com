@@ -788,6 +788,72 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 <!--END REPEAT-->  
 
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #11: Present, Past, Part 1</title>
+
+
+
+    <itunes:summary>
+
+
+
+    In the first part for the Letter P of the STOPPING process, we talk about the Present: the importance of embracing where we are in this moment, to get where we want to be faster and easier. 
+
+	</itunes:summary>
+
+
+    <description>
+
+
+    In the first part for the Letter P of the STOPPING process, we talk about the Present: the importance of embracing where we are in this moment, to get where we want to be faster and easier. 
+
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD11_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
+
+
+
+    <pubDate>Thu, 2 Jul 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:17:36</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD11_Mod4.mp3</guid>
+
+
+
+</item> 
+
+
+
+<!--END REPEAT-->  
+
+
 </channel>
 
 
