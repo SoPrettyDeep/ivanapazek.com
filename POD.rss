@@ -788,7 +788,6 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 <!--END REPEAT-->  
 
-
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
 
@@ -844,6 +843,69 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
     <guid>http://stopwithivana.com/POD11_Mod4.mp3</guid>
+
+
+
+</item> 
+
+
+
+<!--END REPEAT-->  
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #12: Present, Past, Part 2</title>
+
+
+
+    <itunes:summary>
+
+
+    In the second recording of the Letter P of the STOPPING process, we talk about the Past: our early childhood traumas and its effects for us today, as well as 4 Fs: Fight, Flight, Freeze and Fawn, automatic responses we may operate from as a response to difficult situations.
+
+	</itunes:summary>
+
+
+    <description>
+
+
+    In the second recording of the Letter P of the STOPPING process, we talk about the Past: our early childhood traumas and its effects for us today, as well as 4 Fs: Fight, Flight, Freeze and Fawn, automatic responses we may operate from as a response to difficult situations.
+
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD12_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
+
+
+
+    <pubDate>Thu, 9 Jul 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:19:08</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD12_Mod4.mp3</guid>
 
 
 
