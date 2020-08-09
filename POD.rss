@@ -977,6 +977,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 <!--END REPEAT--> 
 
+	
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 
 
@@ -1031,6 +1032,69 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
     <guid>http://stopwithivana.com/POD14_Mod1.mp3</guid>
+
+
+
+</item> 
+
+
+
+<!--END REPEAT--> 
+	
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #15: Intention, Part 2</title>
+
+
+
+    <itunes:summary>
+
+
+    In the second recording for the Letter I of the STOPPING process, we talk about setting the intention for the future event important to us to go well. 
+	    
+	</itunes:summary>
+
+
+    <description>
+
+
+  In the second recording for the Letter I of the STOPPING process, we talk about setting the intention for the future event important to us to go well. 
+		    
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD15_Mod5.mp3" type="audio/mpeg" length="11832536"></enclosure>
+
+
+
+    <pubDate>Thu, 13 Aug 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:16:03</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD15_Mod5.mp3</guid>
 
 
 
