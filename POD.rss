@@ -1104,6 +1104,70 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 <!--END REPEAT-->  
 
+	
+	
+	<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #16: Intention, Part 3</title>
+
+
+
+    <itunes:summary>
+
+
+    In the last recording for the Letter I of the STOPPING process, we talk about the basics of the Law of Attraction and its usage in our every day life. 
+	    
+	</itunes:summary>
+
+
+    <description>
+
+
+ In the last recording for the Letter I of the STOPPING process, we talk about the basics of the Law of Attraction and its usage in our every day life. 
+		    
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD16_Mod5.mp3" type="audio/mpeg" length="9960036"></enclosure>
+
+
+
+    <pubDate>Thu, 20 Aug 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:16:23</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD16_Mod5.mp3</guid>
+
+
+
+</item> 
+
+
+
+<!--END REPEAT-->  
 </channel>
 
 
