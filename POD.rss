@@ -1168,6 +1168,73 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 <!--END REPEAT-->  
+	
+	
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+
+
+
+<item>
+
+
+
+    <title>Pod #17: Non-resistance & Go, Part 1</title>
+
+
+
+    <itunes:summary>
+
+
+ In the first recording of the last part of the STOPPING process, we talk about the importance of Non-resistance - to what is currently in our life, to what happened, what we expect to happen, as well as non-resistance to who we are.  
+ The Non-resistance encompasses all we learned so far and is a prerequisit to taking any conscious decision or action.
+	    
+	</itunes:summary>
+
+
+    <description>
+
+
+ In the first recording of the last part of the STOPPING process, we talk about the importance of Non-resistance - to what is currently in our life, to what happened, what we expect to happen, as well as non-resistance to who we are.  
+ The Non-resistance encompasses all we learned so far and is a prerequisit to taking any conscious decision or action.
+	    
+</description>
+
+
+
+    <link>http://stopwithivana.com</link>
+
+
+
+    <enclosure url="http://ivanapazek.com/POD17_Mod6.mp3" type="audio/mpeg" length="12790303"></enclosure>
+
+
+
+    <pubDate>Thu, 3 Sep 2020 01:01:07 +0000</pubDate>
+
+
+
+    <itunes:author>Ivana Pazek</itunes:author>
+
+
+
+    <itunes:duration>00:14:51</itunes:duration>
+
+
+
+    <itunes:explicit>no</itunes:explicit>
+
+
+
+    <guid>http://stopwithivana.com/POD17_Mod6.mp3</guid>
+
+
+
+</item> 
+
+
+
+<!--END REPEAT-->  	
+	
 </channel>
 
 
