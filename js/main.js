@@ -67,7 +67,14 @@ jQuery(window).load(function () {
     // Slider Height
     var slideHeight = $(window).height();
     $('#home .carousel-inner .item, #home .video-container').css('height', slideHeight);
-
+    
+    //no copy paste --Begin
+$('body').bind('copy paste cut drag drop', function (e) {
+  e.preventDefault();
+});
+    
+    //no copy paste --End
+    
     $(window).resize(function () {
         'use strict',
         $('#home .carousel-inner .item, #home .video-container').css('height', slideHeight);
