@@ -53,7 +53,7 @@
 
 	
 
-	@media only screen and (min-width: 15px) {/**/
+	@media only screen and (min-width: 150px) {/**/
 
     .naslovna { 
 
@@ -104,6 +104,14 @@
     }
 
 }
+	
+	.my-img {
+  width: 100%;
+  /* Images default to being inline, inline items cannot have a width, so change to block: */
+  display: block;
+  /* The following may be needed if there's still a wierd looking 2-3px gap at the bottom of the image in some browsers: */
+  vertical-align: bottom;
+	}
 
 
 
@@ -199,9 +207,9 @@
  <section>
 	 <div class="naslovna" style="height:400px;">
 		 
-		 <img src="pod_logo.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+		<!-- <img src="pod_logo.jpg" style='height: 100%; width: 100%; object-fit: contain'> -->
 
-		<!--<div class="img2" style="height:900px;"><img src="pod_logo.jpg" width="100%" height="auto"><br><br><br><br></div>-->
+		<div class="my-img" ><img src="pod_logo.jpg" width="100%" height="auto"><br><br><br><br></div>
 		
 
 	 </div>
