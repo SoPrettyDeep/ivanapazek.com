@@ -22,7 +22,7 @@
 
 body { 
 	background: #F6F5F5;
-	border-top: 6px solid #9FCC7F; 
+	border-top: 6px solid #f0ad4e; /*#9FCC7F;*/ 
 }
 .page { 
 	padding-bottom: 18px;
