@@ -86,7 +86,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      border-top: 6px solid #9FCC7F; 
+      border-top: 6px solid #f0ad4e; /*#9FCC7F;*/ 
    }
    #nav-wrap > a {	   
       text-align: left;
