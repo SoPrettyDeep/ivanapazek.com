@@ -98,7 +98,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/Intro.mp3" type="audio/mpeg" length="15350639"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/Intro.mp3" type="audio/mpeg" length="15350639"></enclosure>
 
 
 
@@ -118,7 +118,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://ivanapazek.com/Intro.mp3</guid>
+    <guid>http://ivanapazek.com/podcasts/Intro.mp3</guid>
 
 
 
@@ -166,7 +166,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD2.mp3" type="audio/mpeg" length="14880887"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD2.mp3" type="audio/mpeg" length="14880887"></enclosure>
 
 
 
@@ -186,7 +186,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://ivanapazek.com/POD2.mp3</guid>
+    <guid>http://ivanapazek.com/podcasts/POD2.mp3</guid>
 
 
 
@@ -238,7 +238,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD3.mp3" type="audio/mpeg" length="10964975"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD3.mp3" type="audio/mpeg" length="10964975"></enclosure>
 
 
 
@@ -258,7 +258,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD3.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD3.mp3</guid>
 
 
 
@@ -318,7 +318,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD4.mp3" type="audio/mpeg" length="11295215"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD4.mp3" type="audio/mpeg" length="11295215"></enclosure>
 
 
 
@@ -338,7 +338,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD4.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD4.mp3</guid>
 
 
 
@@ -398,7 +398,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD5_Mod2.mp3" type="audio/mpeg" length="10418943"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD5_Mod2.mp3" type="audio/mpeg" length="10418943"></enclosure>
 
 
 
@@ -418,7 +418,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD5_Mod2.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD5_Mod2.mp3</guid>
 
 
 
@@ -478,7 +478,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD6_Mod2.mp3" type="audio/mpeg" length="11979673"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD6_Mod2.mp3" type="audio/mpeg" length="11979673"></enclosure>
 
 
 
@@ -498,7 +498,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD6_Mod2.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD6_Mod2.mp3</guid>
 
 
 
@@ -548,7 +548,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD7_Mod2.mp3" type="audio/mpeg" length="15589205"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD7_Mod2.mp3" type="audio/mpeg" length="15589205"></enclosure>
 
 
 
@@ -568,7 +568,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD7_Mod2.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD7_Mod2.mp3</guid>
 
 
 
@@ -618,7 +618,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD8_Mod3.mp3" type="audio/mpeg" length="17720015"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD8_Mod3.mp3" type="audio/mpeg" length="17720015"></enclosure>
 
 
 
@@ -638,7 +638,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD8_Mod3.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD8_Mod3.mp3</guid>
 
 
 
@@ -690,7 +690,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD9_Mod3.mp3" type="audio/mpeg" length="9930265"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD9_Mod3.mp3" type="audio/mpeg" length="9930265"></enclosure>
 
 
 
@@ -710,7 +710,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD9_Mod3.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD9_Mod3.mp3</guid>
 
 
 
@@ -758,7 +758,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD10_Mod3.mp3" type="audio/mpeg" length="14056887"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD10_Mod3.mp3" type="audio/mpeg" length="14056887"></enclosure>
 
 
 
@@ -778,7 +778,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD10_Mod3.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD10_Mod3.mp3</guid>
 
 
 
@@ -822,7 +822,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD11_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD11_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
 
 
 
@@ -842,7 +842,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD11_Mod4.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD11_Mod4.mp3</guid>
 
 
 
@@ -885,7 +885,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD12_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD12_Mod4.mp3" type="audio/mpeg" length="9147970"></enclosure>
 
 
 
@@ -905,7 +905,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD12_Mod4.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD12_Mod4.mp3</guid>
 
 
 
@@ -948,7 +948,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD13_Mod4.mp3" type="audio/mpeg" length="8319882"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD13_Mod4.mp3" type="audio/mpeg" length="8319882"></enclosure>
 
 
 
@@ -968,7 +968,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD13_Mod4.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD13_Mod4.mp3</guid>
 
 
 
@@ -1011,7 +1011,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD14_Mod1.mp3" type="audio/mpeg" length="13336735"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD14_Mod1.mp3" type="audio/mpeg" length="13336735"></enclosure>
 
 
 
@@ -1031,7 +1031,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD14_Mod1.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD14_Mod1.mp3</guid>
 
 
 
@@ -1074,7 +1074,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD15_Mod5.mp3" type="audio/mpeg" length="11832536"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD15_Mod5.mp3" type="audio/mpeg" length="11832536"></enclosure>
 
 
 
@@ -1094,7 +1094,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD15_Mod5.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD15_Mod5.mp3</guid>
 
 
 
@@ -1139,7 +1139,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD16_Mod5.mp3" type="audio/mpeg" length="9960036"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD16_Mod5.mp3" type="audio/mpeg" length="9960036"></enclosure>
 
 
 
@@ -1159,7 +1159,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD16_Mod5.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD16_Mod5.mp3</guid>
 
 
 
@@ -1205,7 +1205,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD17_Mod6.mp3" type="audio/mpeg" length="12790303"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD17_Mod6.mp3" type="audio/mpeg" length="12790303"></enclosure>
 
 
 
@@ -1225,7 +1225,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD17_Mod6.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD17_Mod6.mp3</guid>
 
 
 
@@ -1259,7 +1259,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD18_Mod6.mp3" type="audio/mpeg" length="12615055"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD18_Mod6.mp3" type="audio/mpeg" length="12615055"></enclosure>
 
 
 
@@ -1279,7 +1279,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD18_Mod6.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD18_Mod6.mp3</guid>
 
 
 
@@ -1316,7 +1316,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <enclosure url="http://ivanapazek.com/POD19_Mod6.mp3" type="audio/mpeg" length="15678703"></enclosure>
+    <enclosure url="http://ivanapazek.com/podcasts/POD19_Mod6.mp3" type="audio/mpeg" length="15678703"></enclosure>
 
 
 
@@ -1336,7 +1336,7 @@ If any questions or comments: support@ivanapazek.com. To get podcast Calendar, a
 
 
 
-    <guid>http://stopwithivana.com/POD19_Mod6.mp3</guid>
+    <guid>http://stopwithivana.com/podcasts/POD19_Mod6.mp3</guid>
 
 
 
