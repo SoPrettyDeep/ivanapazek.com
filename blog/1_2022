@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	
+<!-- web link preview picture -- begin PT1 -->	
+<html xmlns="http://www.w3.org/1999/xhtml"
+<!--       xmlns:fb="http://ogp.me/ns/fb#">-->
+<!-- web link preview picture -- end PT1 -->
+	
+<head>
+<!--- Basic Page Needs
+================================================== -->
+    <meta charset="utf-8">
+<!-- web link preview picture -- begin PT2 -->
+    <meta property="og:image" content="../images/3_0.png" />
+	<meta property="og:image:secure_url" content="../images/3_0.png" />
+	<meta property="og:image:width" content="628" /><meta property="og:image:height" content="259" />
+	<meta property="og:image:alt" content="1" /><meta property="og:image:type" content="image/png" />
+<!-- web link preview picture -- end PT2 -->
+    <title>Ivana Pazek</title>
+	<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+	
+<!-- mobile specific metas
+================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="robots" content="index,follow">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	
+<!-- CSS header
+================================================== -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+<!-- CSS blog
+    ================================================== -->
+    <link href="../css/default.css" rel="stylesheet">
+    <link href="../css/layout.css" rel="stylesheet">  
+    <link href="../css/media-queries.css" rel="stylesheet"> 
+	
+<!-- Script header
+================================================== -->	
+    <script src="../js/html5shiv.js"></script>
+	<script src="../js/respond.min.js"></script> 
+   <!-- Script blog
+   ================================================== -->
+	<script src="../js/modernizr.js"></script>
+	
+<!-- Favicons
+================================================== -->	
+    <link rel="shortcut icon" href="../images/fav.ico">
+
+</head>
+
+<body>
+	
+<!-- Header
+================================================== -->	
+<header id="navigation">
+	
+
+
+	<div class="row">
+		<div class="header-content twelve columns">
+			
+		      <h1 id="logo-text"><a href="index.html" style="color:#333;"></br>Ivana's Next Post</a></h1>
+				<p id="intro">Stay tuned...</br></p>
+		</div>			
+	</div>	
+		
+	<nav id="nav-wrap"> 
+
+	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
+		<a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
+	
+		
+<div class="navbar navbar-inverse" role="banner">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+
+                    </button>
+
+                    <div class="navbar-brand"><img src="../images/signature.jpg" class="signature"></div>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right" style="text-transform: lowercase;">
+
+                        <li class="scroll hidden"><a href="../index.html">home</a></li>
+
+                        <li class="scroll"><a href="../index.html">home</a></li>
+
+                        <li class="scroll"><a href="../services.html">services</a></li>
+
+                        <li class="scroll"><a href="../blog.html">blog</a></li>
+			    
+			<li class="scroll"><a href="../podcasts.html">podcasts</a></li>
+
+			<li class="scroll"><a href="../contact.html" title="ivanapazek.com/contact" >contact</a></li>
+			    
+			<li class="scroll"><a href="../donate.html" >donate</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>				  
+</nav>
+        </header> 
+
+<!-- Content
+================================================== -->
+	
+<!-- Blog start-->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eight columns">
+
+	   		<article class="entry">
+        
+        		
+
+					<header class="entry-header">
+
+						<h2 class="entry-title">
+							<a href="../blog/3.html" title="">Is Agile Dead yet?</a>
+						</h2> 	
+						
+						 </br>				
+					<div class="entry-content">
+<img src="../images/3_0.png" alt="”
+class = "responsive" width = "490" height = "124">
+						 </br>	
+					
+						<div class="entry-meta">
+							<ul>
+								<li>December 17, 2021</li>
+								<span class="meta-sep">&bull;</span>								
+								<li><a href="#" title="" rel="category tag">Author</a></li>
+								<span class="meta-sep">&bull;</span>
+								<li>Ivana Pazek</li>
+							</ul>
+						</div> 
+					 
+					</header> 
+
+
+<p>
+Agile has been so far one of the (only) hopes of transforming dysfunctional ways of working in the corporations. It started by replacing Waterfall, or Traditional methodologies of planning, to include more systematic approach to project delivery, while at the same time having people at its center. Lately there has been doubt about its effectiveness, some companies admitting it didn’t work for them, others claiming it did, while the answer for many may be evident only internally or over time. Is this a beginning of an end? Stay tuned to find out what’s my take on this.
+</p>
+<p>
+If you followed my career path on LinkedIn, you may know that I went from working in Agile, becoming an Agile Coach, and then when thinking on starting my own business I again recently made a change in my focus. The reason for this is that I realized I’m not the same as when starting to work in Agile at the end of 2012. Things have changed. Not just with more work from home, or online in general, but also in the way many see different WOW (ways of working) in organizations, Agile included. 
+</p>
+<p>
+Truth to be told, if you ever worked in Agile, you may know it is not easy to navigate all its aspects. There are many roles, such as Product Owner (PO, or PdO), Scrum Master (SM, or ScM), Team members, Agile coach, Stakeholders, and then there are also middle managers, as well upper-level management, and other roles that make it even more complex. There are different ways of implementing agile, i.e. Agile methodologies, such as Scrum, Kanban, eXtreme Programming (XP), or Crystal, and there are also quality development practices running in the background such as DevOps, CI/CD and test-driven development (TDD). For a whole cultural transition things get even more complex with large-scale frameworks such as Large Scale Scrum (LeSS), Disciplined Agile Delivery (DAD) or Scaled Agile Framework (SAFe). 
+</p>
+</br>	
+<img src="../images/Blog3_1.png" alt="”
+class = "responsive" width = "720" height = "180">		
+<p>
+Adding to this a toxic work culture, things start to get messy. And this has exactly been my focus for more than a year - teaching those working in multinational corporations how to recognize destructive patterns of toxicity. No wonder Agile, or any other methodology wouldn’t be able to survive if few or more of its symptoms are present. 
+</p>
+<p>
+What follows are top 5 symptoms of toxic work cultures and its possible effects on implementing Agile.
+</p>
+
+<h1 class="entry-title">
+<a href="" title=""> 1 Toxic individuals employed in leadership positions</a>
+</h1> 
+<p> I often say in my seminars that we are all responsible, not just leadership for the environment that we create. However, stands to point out that leaders by default have greater influence, and hence greater responsibility. If toxic managers, that bring others down, issue orders instead communicate, act aggressively, or even know how to relate to others in a healthy way, dysfunction will be more widely spread in the organization. </p>
+</br>
+<h1 class="entry-title">
+<a href="" title=""> 2 Wrong people in wrong positions</a>
+</h1> 
+<p>
+In Agile, it may be that past managers become Agile coaches with little to no previous training in Agile methodologies or coaching in general. There may also be assigned division of roles to POs or SMs not based on skills, but on the relationship with the leadership. In my books I talk about mixing Team Player and Leadership personalities in the roles they don’t naturally fit and the consequences of that.
+</p>
+</br>	
+<h1 class="entry-title">
+<a href="" title=""> 3 Role overlaps</a>
+</h1> 
+<p>
+In unhealthy environment, there is often no clear boundary between roles, i.e., the work you do internally and the role that is externally described may be vastly different. It may happen that you are assigned tasks that are not in your domain of work or doing multiple roles at once (most often without additional pay). This can also be reflected in Agile; Agile coach, for example, can also be a SM, PO, or a manager.
+</p>
+</br>	
+
+<h1 class="entry-title">
+<a href="" title=""> 4 Roles missing</a>
+</h1> 
+<p>
+Crucial roles for balancing the dynamics in the environment are often missing, such as psychologist or a coach. Similarly, it may happen that not all Agile roles are present, notably Agile coach role. However it may happen for SM, or PO as well. These roles could be assigned to multiple teams even with no proper scaling of Agile being done, leaving them mostly absent from team dynamics. Agile Coach may not be present at all, the role only assigned artificially. This creates more strain on making Agile work, which is even less possible without its roles.
+</p>
+</br>	
+
+<h1 class="entry-title">
+<a href="" title=""> 5 No proper training</a>
+</h1> 
+<p>
+In toxic work environment, getting certifications is on purpose stifled. It may not appear as such, but you may soon come to a big resistance. The reason for this is that growth is seen as a threat, since it’s the literal opposite of toxic work environment. The threat is that employees with better qualifications may leave and find a better job. Hence, in Agile WOW there may be little to no well-done training for any or all roles. </p>
+</br>	
+
+
+<img src="../images/Blog3_4.png" alt="”
+class = "responsive" width = "430" height = "150">
+						 
+ <p> Photo credit: Factory Smoke by Vitaly Vlasov.</p>
+
+<h1 class="entry-title">
+
+<a href="" title=""> Why does it all even matter? </a>
+</h1> 
+<p>
+Well, any damaging practices, be that in relation to environment, or in own personal habits - at work or home, towards your body, or relating to emotions or mindset, are not sustainable. That is, things are over time not looking up, but going towards a collapse. Unless balance is established in the way you treat yourself, and others, the way you do business, or the way you treat your environment, all is going towards doom. 
+</p>
+</br>	
+<p>
+In a toxic work environment, it is often a case that many suffer, while couple of individuals seem to have it good. If it progresses, these few individuals turn into one, and then none. This is simply the nature of toxicity. If it is present in a body, it spreads and contaminates every cell in a system.
+</p>
+</br>
+<p>
+Now, on the positive side, there is awareness arising in dysfunctional past ways of being and doing. The more you can recognize these patterns and build boundaries by voicing that something is not acceptable, things start to change. The biggest change, however, is one within yourself. No matter how cliche it sounds, it all starts with you.
+</p>
+</br>	
+
+
+
+<h1 class="entry-title">
+	</br>
+<a href="single.html" title="">Conclusion</a>
+</h1>  
+
+<p> With all this, it may not come as a surprise that certain WOW, including Agile, are getting a bad rap. The problem may not be in its intrinsic structure, nor the methodologies, or roles used, but in building it on top of already damaged system.
+</p>
+</br>
+<p>
+			      And to answer the question: <b><i>Is Agile dead yet?</i></b> Since the dysfunctional old ways didn’t get us all into a pretzel… I’d say we can turn it all around. No matter if it’s Agile or another WOW, through introduction of work environment healing and detoxification positive change is sure to come ;-)
+</p>
+</br>	
+
+
+<h1 class="entry-title">
+	</br>
+<a href="single.html" title="">About the Author</a>
+</h1>  
+<p>
+			      <i>
+Ivana Pazek helps organizations, as well as individuals in healing from the toxic culture and establishing more positive and balanced ways of working. [Ref1]
+</br>
+
+			     New Book on Toxic Work Environment: Wolves in Red Hoods: Understand and deal with the creators of a toxic work environment. [Ref3]
+			      </i>
+</p>
+
+
+</br></br>
+<a id="Ref1" href="../contact.html"></br>Ref1)</a> Ivana's contact form: <a id="Ref1" href="../contact.html"> IvanaPazek.com/contact</a>.
+</br></br>
+<a id="Ref2" href="https://www.ivanabooks.com" target="_blank">Ref2)</a> Live Your True Calling: From a Job That’s Eating You Alive to a Life You Love, by Ivana Pazek, <a id="Ref2" href="https://www.ivanabooks.com" target="_blank">ivanabooks.com</a>.
+</br>
+</br>
+<a id="Ref3" href="https://www.ivanabooks.com" target="_blank">Ref3)</a> Wolves in Red Hoods: Understand and deal with the creators of a toxic work environment, by Ivana Pazek, <a id="Ref3" href="https://www.ivanabooks.com" target="_blank">ivanabooks.com</a>.
+</br>
+
+ #workenvironment #toxicworkenvironment #agile #ivanapazek #coaching
+</br></br>						
+</div> 
+
+</article> <!-- end entry -->
+						
+
+   		</div> <!-- end main -->
+
+   		<div id="sidebar" class="four columns">
+
+   			<div class="widget widget_search">
+                  <h3>Search</h3> 
+                  <form action="#">
+
+                     <input type="text" value="Search here..." onblur="if(this.value == '') { this.value = 'Search here...'; }" onfocus="if (this.value == 'Search here...') { this.value = ''; }" class="text-search">
+                     <input type="submit" value="" class="submit-search">
+
+                  </form>
+               </div>
+
+   			<div class="widget widget_categories group">
+   				<h3>Categories.</h3> 
+   					<ul>
+						<li><a href="#" title="">Career</a> (2)</li>
+						<li><a href="#" title="">Coaching</a> (14)</li>
+						<li><a href="#" title="">Agile</a> (5)</li>
+						<li><a href="#" title="">podcast</a> (3)</li>
+						<li><a href="#" title="">books</a> (2)</li>
+						<li><a href="#" title="">Uncategorized</a> (9)</li>						
+					</ul>
+				</div>
+
+				<div class="widget widget_text group">
+					<h3>Widget Text.</h3>
+
+   				<p>ivanabooks.com
+				</p>
+
+   			</div>
+
+   			<div class="widget widget_tags">
+               <h3>Post Tags.</h3>
+
+               <div class="tagcloud group">
+                	<a href="#">Corporate</a>
+                  <a href="#">Onepage</a>
+                  <a href="#">Agency</a>
+                  <a href="#">Multipurpose</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Landing Page</a>
+                  <a href="#">Resume</a>
+               </div>
+                  
+            </div>
+
+            <div class="widget widget_popular">
+               <h3>Popular Post.</h3>
+
+               <ul class="link-list">
+                  <li><a href="#">Sint cillum consectetur voluptate.</a></li>
+                  <li><a href="#">Lorem ipsum Ullamco commodo.</a></li>
+                  <li><a href="#">Fugiat minim eiusmod do.</a></li>                     
+               </ul>
+                  
+            </div>
+   			
+   		</div> <!-- end sidebar -->
+
+   	</div> <!-- end row -->
+
+   </div> <!-- end content-wrap -->
+	
+	<!-- Blog end-->
+	
+    <section class="parallax-section2">
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="contacts">
+                    <a class="contacts__link" href="https://www.facebook.com/ivana.pazek" target="_blank">Facebook</a>
+                    <a class="contacts__link" href="https://www.instagram.com/ivanapazek" target="_blank">Instagram</a>
+                    <a class="contacts__link" href="https://www.youtube.com/c/IvanaPazek" target="_blank">Youtube</a>
+                    <a class="contacts__link" href="https://twitter.com/IvanaPazek" target="_blank">Twitter</a>
+                    <a class="contacts__link" href="https://plus.google.com/+IvanaPazek" target="_blank">Google+ </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Copyright &copy; 2021 - <a class="ivana" href="#">Ivana Pazek</a> | All Rights Reserved</p>
+                <br/>
+                <p>Illustrations by <span class="ivana">Alona Chezganova, Noor</span></p>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+    <div class="form_overlay none"></div>
+
+   <!-- Java Script --header
+   ================================================== -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+   <!-- Java Script --blog
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="../js/main_blog.js"></script>
+
+</body>
+
+</html>
