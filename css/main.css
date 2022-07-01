@@ -82,7 +82,7 @@ li {
 .parallax-section1 {
     min-height: 300px;
     width: 100%;
-	background-image: url(../images/Merge_logos.PNG);
+	background-image: url(../images/Merge_logos.png);
     	background-size: cover; 
 	background-position: 50% 0;
     	background-repeat: no-repeat;
@@ -97,7 +97,7 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(../images/Merge_logos.PNG);
+    background-image: url(../images/Merge_logos.png);
 }
 
 /*
