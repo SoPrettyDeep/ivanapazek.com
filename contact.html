@@ -1,6 +1,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.18733" type="text/javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script> 
+
+
 <script type="text/javascript">
    JotForm.setConditions([{"action":[{"id":"action_0_1511879835309","visibility":"Show","isError":false,"field":"17"}],"id":"1511878134909","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1511879835309","field":"26","operator":"equals","value":"Call me please","isError":false},{"id":"term_1_1511879835309","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"},{"action":[{"id":"action_0_1511879849274","visibility":"Show","isError":false,"field":"21"}],"id":"1511877656959","index":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1511879849274","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"}]);
 	JotForm.init(function(){
@@ -463,6 +466,31 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       </li>
     </ul>
   </div>
+<div class="g-recaptcha" data-sitekey="6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS"></div>
+
+
+if(isset($_POST['g-recaptcha-response'])) {
+   // RECAPTCHA SETTINGS
+   $captcha = $_POST['g-recaptcha-response'];
+   $ip = $_SERVER['REMOTE_ADDR'];
+   $key = '6Lf184IkAAAAACFMjiRDfRpxpSju7Z3_rqgyqg8G';
+   $url = 'https://www.google.com/recaptcha/api/siteverify';
+
+   // RECAPTCH RESPONSE
+   $recaptcha_response = file_get_contents($url.'?secret='.$key.'&response='.$captcha.'&remoteip='.$ip);
+   $data = json_decode($recaptcha_response);
+
+
+
+
+   if(isset($data->success) &&  $data->success === true) {
+   }
+   else {
+      die('Your account has been logged as a spammer, you cannot continue!');
+   }
+ }
+
+
   <script>
   JotForm.showJotFormPowered = "new_footer";
   </script>
