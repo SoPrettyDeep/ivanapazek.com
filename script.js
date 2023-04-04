@@ -21,7 +21,7 @@ loginBtn.addEventListener("click", function() {
   const username = document.getElementById("username-input").value;
   const password = document.getElementById("password-input").value;
 
-  fetch("login.php", {    //Note that we need to replace https://yourdomain.com with the actual domain name or IP address of your 000webhost server.
+  fetch("https://bpazek.000webhostapp.com/login.phpp", {    //Note that we need to replace https://yourdomain.com with the actual domain name or IP address of your 000webhost server.
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -31,7 +31,7 @@ loginBtn.addEventListener("click", function() {
   .then(response => {
     if (response.ok) {
       // Redirect to the members page if login is successful
-      window.location.replace("members.php"); //Note that we need to replace https://yourdomain.com with the actual domain name or IP address of your 000webhost server.
+      window.location.replace("https://bpazek.000webhostapp.com/members.php"); //Note that we need to replace https://yourdomain.com with the actual domain name or IP address of your 000webhost server.
     } else {
       throw new Error("Login failed.");
     }
