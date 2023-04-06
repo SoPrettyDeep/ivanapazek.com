@@ -1,53 +1,8 @@
-<?php
-  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $captcha = $_POST['g-recaptcha-response'];
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $key = '6Lf184IkAAAAACFMjiRDfRpxpSju7Z3_rqgyqg8G';
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    
-    $params = [
-      'secret' => $key,
-      'response' => $captcha,
-      'remoteip' => $ip
-    ];
-    
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $response = curl_exec($ch);
-    curl_close($ch);
-
-    $data = json_decode($response);
-    
-    if (!$data->success) {
-      die('Your account has been logged as a spammer, you cannot continue!');
-    }
-    
-    // continue with form submission
-  }
-?>
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.18733" type="text/javascript"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script> 
-
-
-
-
-
-
-
-
-<!-- <script> 
+<script> 
 	function onLoadCallback () {
 				  
 if(isset($_POST['g-recaptcha-response'])) {
@@ -72,7 +27,7 @@ if(isset($_POST['g-recaptcha-response'])) {
  }
 	}
 </script> 
- -->
+
 <script type="text/javascript">
    JotForm.setConditions([{"action":[{"id":"action_0_1511879835309","visibility":"Show","isError":false,"field":"17"}],"id":"1511878134909","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1511879835309","field":"26","operator":"equals","value":"Call me please","isError":false},{"id":"term_1_1511879835309","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"},{"action":[{"id":"action_0_1511879849274","visibility":"Show","isError":false,"field":"21"}],"id":"1511877656959","index":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1511879849274","field":"26","operator":"equals","value":"Call me through Skype","isError":false}],"type":"field"}]);
 	JotForm.init(function(){
@@ -101,7 +56,6 @@ if (window.JotForm && JotForm.accessible) $('input_8').setAttribute('tabindex',0
    setTimeout(function() {
 JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","subLabel":"","text":"Skype ID","type":"control_email"},{"description":"","name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like QCC aid (check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"description":"","name":"thereIs","qid":"25","text":"There is a number of additional services that compliment our 'Make agile work for you' program (for organizations) or 'Manifest Your Ideal Life' (individual) program. Please check off all options that interest you!","type":"control_checkbox"},{"description":"","name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"description":"","name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"description":"","name":"name","qid":"28","text":"Name","type":"control_fullname"},{"description":"","name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"description":"","name":"email30","qid":"30","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); 
 </script>
-
 <link href="https://cdn.jotfor.ms/static/formCss.css?3.3.18733" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.18733" />
 <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.18733" />
@@ -256,14 +210,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
     /* Injected CSS Code */
 </style>
 
-	<title>Contact Form</title>
- </head>
-  
-  <body onload="onLoadCallback()">
-    
-<form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8" autocomplete="on" onsubmit="return onSubmitCallback();">
-
-<!-- <form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8" autocomplete="on"> -->
+<form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="73314018354349" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
@@ -527,15 +474,15 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       </li>
 
       <li class="form-line" data-type="control_button" id="id_2">
-		<div id="cid_2" class="form-input-wide">
-			<div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
-				<div id="divRecaptcha" class="g-recaptcha" data-sitekey="6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS" data-callback="onSubmit"></div>
-				<button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
-					CONTACT US
-				</button>
-			</div>
-		</div>
-		</li>
+        <div id="cid_2" class="form-input-wide">
+          <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              CONTACT US
+            </button>
+		  <div id = "divRecaptcha" class="g-recaptcha" data-sitekey="6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS"></div>
+          </div>
+        </div>
+      </li>
       <li style="clear:both">
       </li>
       <li style="display:none">
@@ -545,60 +492,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
     </ul>
   </div>
 
-</form>
 
-
-<script src="https://www.google.com/recaptcha/api.js?onload=onLoadCallback&render=explicit" async defer></script>
-
-<script>
-
-function onSubmitCallback() {
-  var captcha = grecaptcha.getResponse();
-  if (!captcha) {
-    alert("Please complete the reCAPTCHA");
-    return false;
-  } else {
-    return true;
-  }
-}
-
-function onLoadCallback() {
-  if(isset($_POST['g-recaptcha-response'])) {
-    // reCAPTCHA settings
-    $captcha = $_POST['g-recaptcha-response'];
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $key = '6Lf184IkAAAAACFMjiRDfRpxpSju7Z3_rqgyqg8G';
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-
-    // reCAPTCHA response
-    $recaptcha_response = file_get_contents($url.'?secret='.$key.'&response='.$captcha.'&remoteip='.$ip);
-    $data = json_decode($recaptcha_response);
-
-    if(isset($data->success) &&  $data->success === true) {
-      // reCAPTCHA verification succeeded, submit the form
-      document.getElementById("73314018354349").submit();
-    } else {
-      // reCAPTCHA verification failed, show an error message
-      echo "reCAPTCHA verification failed!";
-    }
-  } else {
-    // reCAPTCHA token not found, show an error message
-    echo "reCAPTCHA token not found!";
-  }
-}
-
-
-  var onSubmit = function(token) {
-    document.getElementById("73314018354349").submit();
-  };
-
-  var onLoadCallback = function() {
-    grecaptcha.render('divRecaptcha', {
-      'sitekey' : '6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS',
-      'callback' : onSubmit
-    });
-  };
-</script>
 
 
 
@@ -623,9 +517,5 @@ function onLoadCallback() {
       <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73314018354349&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank">Create your own JotForm</a>
     </div>
   </div>
-
+</form>
 <script type="text/javascript">JotForm.forwardToEu=true;</script>
-
-
-</body>
-</html>
