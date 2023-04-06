@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.18733" type="text/javascript"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script> 
+
 <script> 
 	function onLoadCallback () {
 				  
@@ -56,6 +62,7 @@ if (window.JotForm && JotForm.accessible) $('input_8').setAttribute('tabindex',0
    setTimeout(function() {
 JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"CONTACT US","type":"control_button"},null,null,null,null,null,{"name":"additionalComments","qid":"8","text":"Additional Comments","type":"control_textarea"},null,null,null,null,null,null,null,null,{"name":"bestDate","qid":"17","text":"Best date and time to call","type":"control_datetime"},{"name":"contactForm","qid":"18","text":"Contact Form","type":"control_head"},null,null,{"name":"skypeId","qid":"21","subLabel":"","text":"Skype ID","type":"control_email"},{"description":"","name":"areasIn22","qid":"22","text":"Areas in which I&#039;d like QCC aid (check as many as you&#039;d like!):","type":"control_checkbox"},null,null,{"description":"","name":"thereIs","qid":"25","text":"There is a number of additional services that compliment our 'Make agile work for you' program (for organizations) or 'Manifest Your Ideal Life' (individual) program. Please check off all options that interest you!","type":"control_checkbox"},{"description":"","name":"howShould","qid":"26","text":"How should we get in touch?","type":"control_radio"},{"description":"","name":"areYou","qid":"27","text":"Are you interested in immediate help from Ivana?","type":"control_radio"},{"description":"","name":"name","qid":"28","text":"Name","type":"control_fullname"},{"description":"","name":"phoneNumber","qid":"29","text":"Phone Number","type":"control_phone"},{"description":"","name":"email30","qid":"30","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); 
 </script>
+
 <link href="https://cdn.jotfor.ms/static/formCss.css?3.3.18733" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.18733" />
 <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.18733" />
@@ -209,6 +216,13 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
   /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
     /* Injected CSS Code */
 </style>
+
+	<title>Contact Form</title>
+ </head>
+  
+<body>
+    
+
 
 <form class="jotform-form" action="https://submit.jotformeu.com/submit/73314018354349/" method="post" name="form_73314018354349" id="73314018354349" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="73314018354349" />
@@ -476,10 +490,10 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
           <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+		  <div id = "divRecaptcha" class="g-recaptcha" data-sitekey="6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS"></div>
             <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
               CONTACT US
             </button>
-		  <div id = "divRecaptcha" class="g-recaptcha" data-sitekey="6Lf184IkAAAAAOkty9mxZdUruDxF3QD0CUuMXtUS"></div>
           </div>
         </div>
       </li>
@@ -519,3 +533,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
   </div>
 </form>
 <script type="text/javascript">JotForm.forwardToEu=true;</script>
+
+
+</body>
+</html>
